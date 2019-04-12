@@ -33,11 +33,7 @@ export const Content80DataSource = {
           title: { className: 'content8-title', children: 'Jack' },
           content: {
             className: 'content8-content',
-            children: (
-              <span>
-                <p>将听力筛查技术与儿童喜欢的电子游戏结合在一起，将听力筛查用“免费玩”手机游戏的方式呈现在儿童面前；并通过AI技术，提高听力筛查的准确度</p>
-              </span>
-            ),
+            children: '公司+职位 信息暂缺',
           },
         },
       },

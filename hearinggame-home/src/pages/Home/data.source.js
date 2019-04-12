@@ -159,7 +159,7 @@ export const Content00DataSource = {
           content: {
             children: (
               <span>
-                <p>游戏免费玩，结果免费看！</p>
+                <p>游戏免费玩，结果免费看！22</p>
               </span>
             ),
           },
@@ -277,8 +277,7 @@ export const Content30DataSource = {
         children: {
           icon: {
             className: 'content3-icon',
-            children:
-              'https://zos.alipayobjects.com/rmsportal/xMSBjgxBhKfyMWX.png',
+            children:require('../../assets/images/hyxz2.png'),
           },
           textWrapper: { className: 'content3-text' },
           title: { className: 'content3-title', children: '成本过高' },
@@ -297,8 +296,7 @@ export const Content30DataSource = {
         children: {
           icon: {
             className: 'content3-icon',
-            children:
-              'https://zos.alipayobjects.com/rmsportal/MNdlBNhmDBLuzqp.png',
+            children:require('../../assets/images/hyxz3.png'),
           },
           textWrapper: { className: 'content3-text' },
           title: { className: 'content3-title', children: '专业要求' },
@@ -317,8 +315,7 @@ export const Content30DataSource = {
         children: {
           icon: {
             className: 'content3-icon',
-            children:
-              'https://zos.alipayobjects.com/rmsportal/UsUmoBRyLvkIQeO.png',
+            children:require('../../assets/images/hyxz4.png'),
           },
           textWrapper: { className: 'content3-text' },
           title: { className: 'content3-title', children: '档案缺失' },
