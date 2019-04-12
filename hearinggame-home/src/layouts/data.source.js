@@ -13,7 +13,7 @@ export const Nav10DataSource = {
       {name: 'item0', a: {children: '首页', href: '/home'}},
       {name: 'item1', a: {children: '听力现状', href: '/situation'}},
       {name: 'item2', a: {children: '合作机构', href: '/org'}},
-      {name: 'item3', a: {children: '加盟我们', href: '/league'}},
+      {name: 'item3', a: {children: '知识分享', href: '/league'}},
       {name: 'item4', a: {children: '关于我们', href: '/about'}},
     ],
   },

@@ -1,4 +1,48 @@
 import React from 'react';
+export const Nav11DataSource = {
+  wrapper: { className: 'header1 home-page-wrapper' },
+  page: { className: 'home-page' },
+  logo: {
+    className: 'header1-logo header1-logo',
+    children: 'https://os.alipayobjects.com/rmsportal/mlcYmsRilwraoAe.svg',
+  },
+  Menu: {
+    className: 'header1-menu',
+    children: [
+      {
+        name: 'item0',
+        a: {
+          children: '首页',
+          href: '',
+          className: 'undefined index-editor_css',
+        },
+      },
+      {
+        name: 'item1',
+        a: {
+          children: '听力现状',
+          href: '',
+          className: 'undefined current-editor_css',
+        },
+      },
+      { name: 'item2', a: { children: '合作机构', href: '' } },
+      { name: 'item3', a: { children: '知识分享', href: '' } },
+      { name: 'item~jpt4z893l76', a: { children: '关于我们', href: '' } },
+    ],
+  },
+  mobileMenu: { className: 'header1-mobile-menu' },
+  help: {
+    className: 'help',
+    children: (
+      <span>
+        <p>
+          帮助<br />
+        </p>
+      </span>
+    ),
+  },
+  user: {},
+};
 export const Banner10DataSource = {
   wrapper: { className: 'banner1' },
   BannerAnim: {
@@ -10,8 +54,7 @@ export const Banner10DataSource = {
         bg: { className: 'bg bg0' },
         title: {
           className: 'banner1-title',
-          children:
-            'https://zos.alipayobjects.com/rmsportal/HqnZZjBjWRbjyMr.png',
+          children:require('../../assets/images/bg1.jpg'),
         },
         content: {
           className: 'banner1-content',
@@ -39,8 +82,7 @@ export const Banner10DataSource = {
         bg: { className: 'bg bg1' },
         title: {
           className: 'banner1-title',
-          children:
-            'https://zos.alipayobjects.com/rmsportal/HqnZZjBjWRbjyMr.png',
+          children:require('../../assets/images/bg1.jpg'),
         },
         content: {
           className: 'banner1-content',
@@ -68,8 +110,7 @@ export const Banner10DataSource = {
         bg: { className: 'bg bg1' },
         title: {
           className: 'banner1-title',
-          children:
-            'https://zos.alipayobjects.com/rmsportal/HqnZZjBjWRbjyMr.png',
+          children:require('../../assets/images/bg1.jpg'),
         },
         content: {
           className: 'banner1-content',
@@ -99,15 +140,14 @@ export const Banner10DataSource = {
         bg: { className: 'bg bg1' },
         title: {
           className: 'banner1-title',
-          children:
-            'https://zos.alipayobjects.com/rmsportal/HqnZZjBjWRbjyMr.png',
+          children:require('../../assets/images/bg1.jpg'),
         },
         content: {
           className: 'banner1-content',
           children: (
             <span>
               <p>
-                •\t据美国权威机构研究，轻度儿童听力损失，可以造成GPA1.0的下降,
+                •据美国权威机构研究，轻度儿童听力损失，可以造成GPA1.0的下降,
                 相当于10-15分的下降！
               </p>
             </span>
@@ -131,15 +171,14 @@ export const Banner10DataSource = {
         bg: { className: 'bg bg1' },
         title: {
           className: 'banner1-title',
-          children:
-            'https://zos.alipayobjects.com/rmsportal/HqnZZjBjWRbjyMr.png',
+          children:require('../../assets/images/bg1.jpg'),
         },
         content: {
           className: 'banner1-content',
           children: (
             <span>
               <p>
-                •\t中轻度听力损失不易察觉，直接影响学习成绩,
+                •中轻度听力损失不易察觉，直接影响学习成绩,
                 社交能力和自信心——儿童的中轻度听力损失不易察觉，且30%听力障碍为迟发性，仅靠新生儿听力筛查不能解决问题。
               </p>
             </span>
@@ -420,7 +459,7 @@ export const Content30DataSource = {
             children: (
               <span>
                 <p>
-                  •\t听力游戏由美国耳鼻喉科医生和专家设计，
+                  听力游戏由美国耳鼻喉科医生和专家设计，
                   经国内外临床试验验证， 确保筛查效果！
                 </p>
               </span>
@@ -452,7 +491,7 @@ export const Content30DataSource = {
             className: 'content3-title judiat21hb-editor_css',
             children: (
               <span>
-                <p>•\t丰富经验的管理和技术团队，具有多年开发一流产品的经验！</p>
+                <p>丰富经验的管理和技术团队，具有多年开发一流产品的经验！</p>
               </span>
             ),
           },
@@ -508,8 +547,7 @@ export const Content33DataSource = {
         children: {
           icon: {
             className: 'content3-icon',
-            children:
-              'https://zos.alipayobjects.com/rmsportal/NKBELAOuuKbofDD.png',
+            children:require('../../assets/images/bg1.jpg'),
           },
           textWrapper: { className: 'content3-text' },
           title: {
@@ -821,7 +859,7 @@ export const Content21DataSource = {
   OverPack: { className: 'home-page content2', playScale: 0.3 },
   imgWrapper: { className: 'content2-img', md: 10, xs: 24 },
   img: {
-    children: 'https://zos.alipayobjects.com/rmsportal/tvQTfCupGUFKSfQ.png',
+    children:require('../../assets/images/scfangan.png'),
     className: 'judsy13g2j-editor_css',
   },
   textWrapper: {
@@ -1021,8 +1059,7 @@ export const Content80DataSource = {
           className: 'content8-block juc7omz57j-editor_css',
           img: {
             className: 'content8-img',
-            children:
-              'https://gw.alipayobjects.com/zos/rmsportal/JahzbVrdHdJlkJjkNsBJ.png',
+            children:require('../../assets/images/td1zzg.jpg'),
           },
           title: {
             className: 'content8-title',
@@ -1398,7 +1435,7 @@ export const Content51DataSource = {
       {
         name: 'content',
         className: 'title-content',
-        children: '在这里用一段话介绍服务的案例情况',
+        children: '',
       },
     ],
   },
@@ -1414,8 +1451,7 @@ export const Content51DataSource = {
         children: {
           wrapper: { className: 'content5-block-content' },
           img: {
-            children:
-              'https://t.alipayobjects.com/images/rmsweb/T11aVgXc4eXXXXXXXX.svg',
+            children:require('../../assets/images/td1zzg.jpg'),
           },
           content: {
             children: (
@@ -1441,8 +1477,7 @@ export const Content51DataSource = {
         children: {
           wrapper: { className: 'content5-block-content' },
           img: {
-            children:
-              'https://t.alipayobjects.com/images/rmsweb/T11aVgXc4eXXXXXXXX.svg',
+            children:require('../../assets/images/td2wxj.jpg'),
           },
           content: {
             children: (
@@ -1467,8 +1502,7 @@ export const Content51DataSource = {
         children: {
           wrapper: { className: 'content5-block-content' },
           img: {
-            children:
-              'https://t.alipayobjects.com/images/rmsweb/T11aVgXc4eXXXXXXXX.svg',
+            children:require('../../assets/images/td3barber.jpg'),
           },
           content: {
             children: (
@@ -1498,8 +1532,7 @@ export const Content51DataSource = {
         children: {
           wrapper: { className: 'content5-block-content' },
           img: {
-            children:
-              'https://t.alipayobjects.com/images/rmsweb/T11aVgXc4eXXXXXXXX.svg',
+            children:require('../../assets/images/td4yhb.png'),
           },
           content: {
             children: (
@@ -1525,8 +1558,7 @@ export const Content51DataSource = {
         children: {
           wrapper: { className: 'content5-block-content' },
           img: {
-            children:
-              'https://t.alipayobjects.com/images/rmsweb/T11aVgXc4eXXXXXXXX.svg',
+            children:require('../../assets/images/td5miller.png'),
           },
           content: {
             children: (
@@ -1560,8 +1592,7 @@ export const Content51DataSource = {
         children: {
           wrapper: { className: 'content5-block-content' },
           img: {
-            children:
-              'https://t.alipayobjects.com/images/rmsweb/T11aVgXc4eXXXXXXXX.svg',
+            children:require('../../assets/images/td6yxj.jpg'),
           },
           content: {
             children: (
