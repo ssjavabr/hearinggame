@@ -6,16 +6,20 @@ import {enquireScreen} from 'enquire-js';
 import Nav1 from './Nav1';
 import Banner1 from './Banner1';
 import Content3 from './Content3';
+import Content10 from './Content10';
 import Content2 from './Content2';
 import Content5 from './Content5';
 import Content8 from './Content8';
 import Content6 from './Content6';
 import Footer1 from './Footer1';
 
+
+
 import {
   Nav11DataSource,
   Banner10DataSource,
   Content33DataSource,
+  Content10DataSource,
   Content31DataSource,
   Content21DataSource,
   Content30DataSource,
@@ -25,6 +29,7 @@ import {
   Content51DataSource,
   Content61DataSource,
   Footer10DataSource,
+
 } from './data.source';
 import './less/antMotionStyle.less';
 
@@ -90,10 +95,17 @@ export default class Home extends React.Component {
         dataSource={Content31DataSource}
         isMobile={this.state.isMobile}
       />,
-      <Content2
+  /*//方案文字+拼接
+  <Content2
         id="Content2_1"
         key="Content2_1"
         dataSource={Content21DataSource}
+        isMobile={this.state.isMobile}
+      />,*/
+      <Content10
+        id="Content3_1"
+        key="Content3_1"
+        dataSource={Content10DataSource}
         isMobile={this.state.isMobile}
       />,
       <Content3
@@ -141,6 +153,7 @@ export default class Home extends React.Component {
         dataSource={Footer10DataSource}
         isMobile={this.state.isMobile}
       />,
+
     ];
     return (
       <div

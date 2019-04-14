@@ -296,7 +296,7 @@ export const Content00DataSource = {
   },
 };
 //home没有
-export const Content10DataSource = {
+/*export const Content10DataSource = {
   wrapper: { className: 'home-page-wrapper content1-wrapper' },
   OverPack: { className: 'home-page content1', playScale: 0.3 },
   imgWrapper: { className: 'content1-img', md: 10, xs: 24 },
@@ -308,6 +308,22 @@ export const Content10DataSource = {
   content: {
     className: 'content1-content',
     children:require('../../assets/images/duibi.png'),
+  },
+};*/
+//方案
+export const Content10DataSource = {
+  wrapper: { className: 'home-page-wrapper content1-wrapper' },
+  OverPack: { className: 'home-page content1', playScale: 0.3 },
+  imgWrapper: { className: 'content1-img', md: 23, xs: 24 },
+  img: {
+    children: require('../../assets/images/scfangan.png'),
+    className: 'juh4w1v5l9p-editor_css',
+  },
+  textWrapper: { className: 'content1-text', md: 1, xs: 24 },
+  title: { className: 'content1-title', children: '' },
+  content: {
+    className: 'content1-content',
+    children:'',
   },
 };
 export const Content30DataSource = {
