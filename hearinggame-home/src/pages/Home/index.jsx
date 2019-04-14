@@ -1,7 +1,7 @@
 /* eslint no-undef: 0 */
 /* eslint arrow-parens: 0 */
 import React from 'react';
-import { enquireScreen } from 'enquire-js';
+import {enquireScreen} from 'enquire-js';
 
 import Nav1 from './Nav1';
 import Banner1 from './Banner1';
@@ -33,7 +33,7 @@ enquireScreen((b) => {
   isMobile = b;
 });
 
-const { location } = window;
+const {location} = window;
 
 export default class Home extends React.Component {
   constructor(props) {
@@ -47,7 +47,7 @@ export default class Home extends React.Component {
   componentDidMount() {
     // 适配手机屏幕;
     enquireScreen((b) => {
-      this.setState({ isMobile: !!b });
+      this.setState({isMobile: !!b});
     });
     // dva 2.0 样式在组件渲染之后动态加载，导致滚动组件不生效；线上不影响；
     /* 如果不是 dva 2.0 请删除 start */
@@ -102,6 +102,7 @@ export default class Home extends React.Component {
         dataSource={Content30DataSource}
         isMobile={this.state.isMobile}
       />,
+
       /*客户案例
       <Content5
         id="Content5_0"

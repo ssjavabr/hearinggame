@@ -852,6 +852,8 @@ export const Content31DataSource = {
     gutter: {},
   },
 };
+//content21 整张图片模式
+
 export const Content21DataSource = {
   wrapper: { className: 'home-page-wrapper content2-wrapper' },
   OverPack: { className: 'home-page content2', playScale: 0.3 },
