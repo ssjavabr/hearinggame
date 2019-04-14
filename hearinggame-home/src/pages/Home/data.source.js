@@ -554,7 +554,7 @@ export const Content33DataSource = {
             className: 'content3-title',
             children: (
               <span >
-                <div align="center">
+                <div >
                 <p>
                   基于软件的纯音听力筛查<br />
                 </p>
@@ -563,10 +563,10 @@ export const Content33DataSource = {
             ),
           },
           content: {
-            className: 'content3-content judrxb3smeu-editor_css',
+            className: 'con tent3-content judrxb3smeu-editor_css',
             children: (
               <span >
-                <div align="center">
+                <div >
                 <p>
                   ● 轻度听力缺损 <br />
                 </p>
@@ -593,7 +593,7 @@ export const Content33DataSource = {
             className: 'content3-title',
             children: (
               <span>
-                <div align="justify">
+                <div >
                 <p>基于硬件的视力筛查</p></div>
               </span>
             ),
@@ -602,7 +602,7 @@ export const Content33DataSource = {
             className: 'content3-content juds08xbmin-editor_css',
             children: (
               <span>
-                 <div align="justify">
+                 <div >
                 <p>
                   ● 近视 <br />
                 </p>
@@ -732,8 +732,7 @@ export const Content31DataSource = {
         children: {
           icon: {
             className: 'content3-icon judjfcmfhh-editor_css',
-            children:
-              'https://zos.alipayobjects.com/rmsportal/nLzbeGQLPyBJoli.png',
+            children:require('../../assets/images/hyxz0.png'),
           },
           textWrapper: { className: 'content3-text judjj8upfx-editor_css' },
           title: {
@@ -764,8 +763,7 @@ export const Content31DataSource = {
         children: {
           icon: {
             className: 'content3-icon judjm8z8jcf-editor_css',
-            children:
-              'https://zos.alipayobjects.com/rmsportal/NKBELAOuuKbofDD.png',
+            children:require('../../assets/images/hyxz1.png'),
           },
           textWrapper: { className: 'content3-text' },
           title: {
@@ -796,8 +794,7 @@ export const Content31DataSource = {
         children: {
           icon: {
             className: 'content3-icon',
-            children:
-              'https://zos.alipayobjects.com/rmsportal/MNdlBNhmDBLuzqp.png',
+            children:require('../../assets/images/hyxz2.png'),
           },
           textWrapper: { className: 'content3-text' },
           title: {
@@ -828,8 +825,7 @@ export const Content31DataSource = {
         children: {
           icon: {
             className: 'content3-icon',
-            children:
-              'https://zos.alipayobjects.com/rmsportal/UsUmoBRyLvkIQeO.png',
+            children:require('../../assets/images/hyxz3.png'),
           },
           textWrapper: { className: 'content3-text' },
           title: {
