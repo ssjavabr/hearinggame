@@ -26,12 +26,12 @@ class Banner extends React.PureComponent {
             key="text"
             {...textWrapper}
           >
-            <div key="logo" {...title}>
+            <div key="logo" {...title} >
               {typeof title.children === 'string' &&
               title.children.match(
                 /\.(svg|gif|jpg|jpeg|png|JPG|PNG|GIF|JPEG)$/
               ) ? (
-                <img src={title.children} width="100%" alt="img" />
+                <img src={title.children} width="500px" alt="img"  />
               ) : (
                 title.children
               )}

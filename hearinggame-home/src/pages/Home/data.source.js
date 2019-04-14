@@ -54,7 +54,7 @@ export const Banner10DataSource = {
         bg: { className: 'bg bg0' },
         title: {
           className: 'banner1-title',
-          children:require('../../assets/images/bg1.jpg'),
+          children:require('../../assets/images/check-children.png'),
         },
         content: {
           className: 'banner1-content',
@@ -82,7 +82,7 @@ export const Banner10DataSource = {
         bg: { className: 'bg bg1' },
         title: {
           className: 'banner1-title',
-          children:require('../../assets/images/bg1.jpg'),
+          children:require('../../assets/images/children-01.png'),
         },
         content: {
           className: 'banner1-content',
@@ -110,7 +110,7 @@ export const Banner10DataSource = {
         bg: { className: 'bg bg1' },
         title: {
           className: 'banner1-title',
-          children:require('../../assets/images/bg1.jpg'),
+          children:require('../../assets/images/check-02.png'),
         },
         content: {
           className: 'banner1-content',
@@ -140,7 +140,7 @@ export const Banner10DataSource = {
         bg: { className: 'bg bg1' },
         title: {
           className: 'banner1-title',
-          children:require('../../assets/images/bg1.jpg'),
+          children:require('../../assets/images/check-03.png'),
         },
         content: {
           className: 'banner1-content',
@@ -171,14 +171,14 @@ export const Banner10DataSource = {
         bg: { className: 'bg bg1' },
         title: {
           className: 'banner1-title',
-          children:require('../../assets/images/bg1.jpg'),
+          children:require('../../assets/images/check-04.png'),
         },
         content: {
           className: 'banner1-content',
           children: (
             <span>
               <p>
-                •中轻度听力损失不易察觉，直接影响学习成绩,
+                中轻度听力损失不易察觉，直接影响学习成绩,
                 社交能力和自信心——儿童的中轻度听力损失不易察觉，且30%听力障碍为迟发性，仅靠新生儿听力筛查不能解决问题。
               </p>
             </span>
@@ -547,28 +547,32 @@ export const Content33DataSource = {
         children: {
           icon: {
             className: 'content3-icon',
-            children:require('../../assets/images/bg1.jpg'),
+            children:require('../../assets/images/pruductService0.png'),
           },
           textWrapper: { className: 'content3-text' },
           title: {
             className: 'content3-title',
             children: (
-              <span>
+              <span >
+                <div align="center">
                 <p>
                   基于软件的纯音听力筛查<br />
                 </p>
+                </div>
               </span>
             ),
           },
           content: {
             className: 'content3-content judrxb3smeu-editor_css',
             children: (
-              <span>
+              <span >
+                <div align="center">
                 <p>
                   ● 轻度听力缺损 <br />
                 </p>
                 <p>●中度听力缺损</p>
                 <p> ● 重度听力缺损 </p>
+                </div>
               </span>
             ),
           },
@@ -582,15 +586,15 @@ export const Content33DataSource = {
         children: {
           icon: {
             className: 'content3-icon',
-            children:
-              'https://zos.alipayobjects.com/rmsportal/xMSBjgxBhKfyMWX.png',
+            children:require('../../assets/images/pruductService1.png'),
           },
           textWrapper: { className: 'content3-text' },
           title: {
             className: 'content3-title',
             children: (
               <span>
-                <p>基于硬件的视力筛查</p>
+                <div align="justify">
+                <p>基于硬件的视力筛查</p></div>
               </span>
             ),
           },
@@ -598,15 +602,15 @@ export const Content33DataSource = {
             className: 'content3-content juds08xbmin-editor_css',
             children: (
               <span>
+                 <div align="justify">
                 <p>
-                  {' '}
                   ● 近视 <br />
                 </p>
-                <p>● 远视 </p>
-                <p>● 散光（视力模糊）</p>
-                <p> ● 屈光参差（不同的屈光率）</p>
-                <p>● 斜视（眼位偏斜）</p>
-                <p> ● 瞳孔不等（瞳孔大小不等）</p>
+                <p>● 远视  <br /></p>
+                <p>● 散光（视力模糊） <br /></p>
+                <p> ● 屈光参差（不同的屈光率） <br /></p>
+                <p>● 斜视（眼位偏斜） <br /></p>
+                <p> ● 瞳孔不等（瞳孔大小不等） <br /></p></div>
               </span>
             ),
           },
@@ -620,8 +624,7 @@ export const Content33DataSource = {
         children: {
           icon: {
             className: 'content3-icon',
-            children:
-              'https://zos.alipayobjects.com/rmsportal/MNdlBNhmDBLuzqp.png',
+            children:require('../../assets/images/pruductService2.png'),
           },
           textWrapper: { className: 'content3-text' },
           title: {
@@ -654,8 +657,7 @@ export const Content33DataSource = {
         children: {
           icon: {
             className: 'content3-icon',
-            children:
-              'https://zos.alipayobjects.com/rmsportal/UsUmoBRyLvkIQeO.png',
+            children:require('../../assets/images/pruductService3.jpg'),
           },
           textWrapper: { className: 'content3-text' },
           title: {

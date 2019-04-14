@@ -38,7 +38,7 @@ function Content2(props) {
       }}
     >
       <span {...dataSource.img}>
-        <img src={dataSource.img.children} width="100%"  alt="img" />
+        <img src={dataSource.img.children} width="500px"  alt="img" />
       </span>
     </TweenOne>
   );
