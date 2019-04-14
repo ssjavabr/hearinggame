@@ -3,9 +3,9 @@
 import React from 'react';
 import { enquireScreen } from 'enquire-js';
 
-import Content5 from './Content5';
+import Content1 from './Content1';
 
-import { Content50DataSource } from './data.source';
+import { Content11DataSource } from './data.source';
 import './less/antMotionStyle.less';
 
 let isMobile;
@@ -15,7 +15,7 @@ enquireScreen((b) => {
 
 const { location } = window;
 
-export default class Situation extends React.Component {
+export default class Home extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -44,10 +44,10 @@ export default class Situation extends React.Component {
 
   render() {
     const children = [
-      <Content5
-        id="Content5_0"
-        key="Content5_0"
-        dataSource={Content50DataSource}
+      <Content1
+        id="Content1_1"
+        key="Content1_1"
+        dataSource={Content11DataSource}
         isMobile={this.state.isMobile}
       />,
     ];

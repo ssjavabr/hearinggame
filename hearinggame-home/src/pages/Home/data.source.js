@@ -363,7 +363,7 @@ export const Content30DataSource = {
       {
         name: 'block0',
         className: 'content3-block',
-        md: 8,
+        md: 12,
         xs: 24,
         children: {
           icon: {
@@ -396,13 +396,12 @@ export const Content30DataSource = {
       {
         name: 'block1',
         className: 'content3-block',
-        md: 8,
+        md: 12,
         xs: 24,
         children: {
           icon: {
             className: 'content3-icon',
-            children:
-              'https://zos.alipayobjects.com/rmsportal/NKBELAOuuKbofDD.png',
+            children:require('../../assets/images/check-04.png'),
           },
           textWrapper: { className: 'content3-text' },
           title: {
@@ -428,7 +427,7 @@ export const Content30DataSource = {
       {
         name: 'block2',
         className: 'content3-block',
-        md: 8,
+        md: 12,
         xs: 24,
         children: {
           icon: {
@@ -461,7 +460,7 @@ export const Content30DataSource = {
       {
         name: 'block3',
         className: 'content3-block',
-        md: 8,
+        md: 12,
         xs: 24,
         children: {
           icon: {
@@ -494,7 +493,7 @@ export const Content30DataSource = {
       {
         name: 'block4',
         className: 'content3-block',
-        md: 8,
+        md: 12,
         xs: 24,
         children: {
           icon: {
