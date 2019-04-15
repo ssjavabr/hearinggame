@@ -1,13 +1,13 @@
 /* eslint no-undef: 0 */
 /* eslint arrow-parens: 0 */
+
 import React from 'react';
 import { enquireScreen } from 'enquire-js';
 
-import Content8 from './Content8';
+import Content3 from './Content3';
 
-import { Content80DataSource } from './data.source';
+import { Content30DataSource } from './data.source';
 import './less/antMotionStyle.less';
-
 let isMobile;
 enquireScreen((b) => {
   isMobile = b;
@@ -44,10 +44,10 @@ export default class Home extends React.Component {
 
   render() {
     const children = [
-      <Content8
-        id="Content8_0"
-        key="Content8_0"
-        dataSource={Content80DataSource}
+      <Content3
+        id="Content3_0"
+        key="Content3_0"
+        dataSource={Content30DataSource}
         isMobile={this.state.isMobile}
       />,
     ];

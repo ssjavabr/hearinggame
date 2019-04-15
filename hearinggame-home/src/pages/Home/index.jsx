@@ -12,6 +12,7 @@ import Content5 from './Content5';
 import Content8 from './Content8';
 import Content6 from './Content6';
 import Footer1 from './Footer1';
+import Content7 from './Content7';
 
 
 
@@ -93,6 +94,12 @@ export default class Home extends React.Component {
         id="Content3_1"
         key="Content3_1"
         dataSource={Content31DataSource}
+        isMobile={this.state.isMobile}
+      />,
+      <Content7
+        id="Content7_0"
+        key="Content7_0"
+        dataSource={Content50DataSource}
         isMobile={this.state.isMobile}
       />,
   /*//方案文字+拼接

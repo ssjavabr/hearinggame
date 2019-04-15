@@ -707,6 +707,10 @@ export const Content33DataSource = {
     ],
   },
 };
+
+
+
+
 export const Content31DataSource = {
   wrapper: { className: 'home-page-wrapper content3-wrapper' },
   page: { className: 'home-page content3 judiyd7a1if-editor_css' },
@@ -867,6 +871,7 @@ export const Content31DataSource = {
     gutter: {},
   },
 };
+
 //content21 整张图片模式
 
 export const Content21DataSource = {
@@ -903,147 +908,98 @@ export const Content21DataSource = {
 };
 
 export const Content50DataSource = {
-  wrapper: {
-    className: 'home-page-wrapper content5-wrapper judig4v2crf-editor_css',
-  },
-  page: { className: 'home-page content5 judie6pgq5-editor_css' },
+  wrapper: { className: 'home-page-wrapper content7-wrapper' },
+  page: { className: 'home-page content7' },
   OverPack: { playScale: 0.3, className: '' },
   titleWrapper: {
     className: 'title-wrapper',
     children: [
-      { name: 'title', children: '客户案例', className: 'title-h1' },
+      { name: 'title', children: '行业现状', className: 'title-h1' },
       {
         name: 'content',
         className: 'title-content',
-        children: '在这里用一段话介绍服务的案例情况',
+        children: '',
       },
     ],
   },
   block: {
-    className: 'content5-img-wrapper',
+    className: 'content7-img-wrapper',
     gutter: 16,
     children: [
       {
         name: 'block0',
         className: 'block',
-        md: 6,
+        md: 12,
         xs: 24,
         children: {
-          wrapper: { className: 'content5-block-content' },
+          wrapper: { className: 'content7-block-content' },
           img: {
-            children:
-              'https://t.alipayobjects.com/images/rmsweb/T11aVgXc4eXXXXXXXX.svg',
+            children:require('../../assets/images/hyxz0.png'),
           },
-          content: { children: 'Ant Design' },
+          content: { children:
+              <span>
+                <h2>手段单一</h2>
+                <p>目前，只有大型三甲医院才有静音室和听力师，无法满足全国5-12岁儿童对听力筛查的经常性和随时性要求，导致随访严重不足。</p>
+              </span> },
         },
       },
       {
         name: 'block1',
         className: 'block',
-        md: 6,
+        md: 12,
         xs: 24,
         children: {
-          wrapper: { className: 'content5-block-content' },
+          wrapper: { className: 'content7-block-content' },
           img: {
-            children:
-              'https://zos.alipayobjects.com/rmsportal/faKjZtrmIbwJvVR.svg',
+            children:require('../../assets/images/hyxz1.png'),
           },
-          content: {
-            children: (
+          content: { children:
               <span>
-                <p />
-              </span>
-            ),
-          },
+                <h2>政策缺失</h2>
+                <p>目前为止，所有的听力筛查相关政策文件都是针对新生儿，对于4岁之后的少年儿童没有强制性听力监测政策，导致家长没有对孩子在这一阶段的听力筛查以足够重视。</p>
+              </span> },
         },
       },
       {
         name: 'block2',
         className: 'block',
-        md: 6,
+        md: 12,
         xs: 24,
         children: {
-          wrapper: { className: 'content5-block-content' },
+          wrapper: { className: 'content7-block-content' },
           img: {
-            children:
-              'https://t.alipayobjects.com/images/rmsweb/T11aVgXc4eXXXXXXXX.svg',
+            children:require('../../assets/images/hyxz2.png'),
           },
-          content: { children: 'Ant Design' },
+          content: { children:
+              <span>
+                <h2>成本过高</h2>
+                <p>三甲医院需要采购大量听力检测仪，同时雇佣听力师进行测试，成本居高不下。同时，大量三、四线和乡镇儿童需要到一、二线城市大医院进行测试，成本较高且十分不方便。</p>
+              </span>
+          },
         },
       },
       {
         name: 'block3',
         className: 'block',
-        md: 6,
+        md: 12,
         xs: 24,
         children: {
-          wrapper: { className: 'content5-block-content' },
+          wrapper: { className: 'content7-block-content' },
           img: {
-            children:
-              'https://zos.alipayobjects.com/rmsportal/faKjZtrmIbwJvVR.svg',
+            children:require('../../assets/images/hyxz3.png'),
           },
-          content: { children: 'Ant Motion' },
-        },
-      },
-      {
-        name: 'block4',
-        className: 'block',
-        md: 6,
-        xs: 24,
-        children: {
-          wrapper: { className: 'content5-block-content' },
-          img: {
-            children:
-              'https://t.alipayobjects.com/images/rmsweb/T11aVgXc4eXXXXXXXX.svg',
+          content: { children:
+              <span>
+                <h2>专业要求</h2>
+                <p>目前视力筛查要求由专业人员进行操作，费时，费力，效率非常低，而且既不易于普及。</p>
+              </span>
           },
-          content: { children: 'Ant Design' },
-        },
-      },
-      {
-        name: 'block5',
-        className: 'block',
-        md: 6,
-        xs: 24,
-        children: {
-          wrapper: { className: 'content5-block-content' },
-          img: {
-            children:
-              'https://zos.alipayobjects.com/rmsportal/faKjZtrmIbwJvVR.svg',
-          },
-          content: { children: 'Ant Motion' },
-        },
-      },
-      {
-        name: 'block6',
-        className: 'block',
-        md: 6,
-        xs: 24,
-        children: {
-          wrapper: { className: 'content5-block-content' },
-          img: {
-            children:
-              'https://t.alipayobjects.com/images/rmsweb/T11aVgXc4eXXXXXXXX.svg',
-          },
-          content: { children: 'Ant Design' },
-        },
-      },
-      {
-        name: 'block7',
-        className: 'block',
-        md: 6,
-        xs: 24,
-        children: {
-          wrapper: { className: 'content5-block-content' },
-          img: {
-            children:
-              'https://zos.alipayobjects.com/rmsportal/faKjZtrmIbwJvVR.svg',
-          },
-          content: { children: 'Ant Motion' },
         },
       },
     ],
   },
 };
+
 export const Content80DataSource = {
   wrapper: {
     className: 'home-page-wrapper content8-wrapper juc7oaw3rql-editor_css',
@@ -1853,7 +1809,7 @@ export const Footer10DataSource = {
       <span>
         <p>
           <i>
-            版权所有©2018 听游科技(北京)有限责任公司&nbsp; &nbsp; &nbsp; &nbsp;
+            版权所有©2019 听游(北京)科技有限责任公司&nbsp; &nbsp; &nbsp; &nbsp;
             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;京ICP备12345678号&nbsp;
             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 京公安网备123456789号
           </i>
