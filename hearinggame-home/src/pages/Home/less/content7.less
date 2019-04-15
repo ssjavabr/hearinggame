@@ -14,9 +14,9 @@
         margin-bottom: 24px;
         .content7-block-content {
           display: block;
-          background: #fff;
+          background: #ff6633;
           border-radius: 4px;
-          padding: 10px;
+          //padding: 10px;
           text-align: center;
           position: relative;
           overflow: hidden;
@@ -26,9 +26,42 @@
           & > span {
             width: 100%;
             height: 160px;
-            display: block;
-            background: @line-color;
-            padding: 5%;
+            //display: block;
+            //background: @line-color;
+            //padding: 5%;
+          }
+          & p {
+            width: 100%;
+            line-height: 30px;
+            text-align: left ;
+          }
+          &:hover {
+            & p {
+              bottom: 0;
+            }
+          }
+        }
+      }
+
+      .block2 {
+        margin-bottom: 24px;
+        .content7-block-content {
+          display: block;
+          background: #FFA000;
+          border-radius: 4px;
+          //padding: 10px;
+          text-align: center;
+          position: relative;
+          overflow: hidden;
+          .page-pro();
+          border: none;
+          transition: box-shadow .3s @ease-out, transform .3s @ease-out;
+          & > span {
+            width: 100%;
+            height: 160px;
+            //display: block;
+            //background: @line-color;
+            //padding: 5%;
           }
           & p {
             width: 100%;
@@ -41,6 +74,40 @@
           }
         }
       }
+
+      .block3 {
+        margin-bottom: 24px;
+        .content7-block-content {
+          display: block;
+          background: #67D400;
+          border-radius: 4px;
+          //padding: 10px;
+          text-align: center;
+          position: relative;
+          overflow: hidden;
+          .page-pro();
+          border: none;
+          transition: box-shadow .3s @ease-out, transform .3s @ease-out;
+          & > span {
+            width: 100%;
+            height: 160px;
+            //display: block;
+            //background: @line-color;
+            //padding: 5%;
+          }
+          & p {
+            width: 100%;
+            line-height: 30px;
+            text-align: left;
+          }
+          &:hover {
+            & p {
+              bottom: 0;
+            }
+          }
+        }
+      }
+
     }
   }
 }

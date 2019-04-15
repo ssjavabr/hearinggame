@@ -68,6 +68,34 @@ export const Content60DataSource = {
             '',
         },
       },
+      {
+        name: 'block2',
+        img: {
+          className: 'content6-icon',
+          children:
+            'https://zos.alipayobjects.com/rmsportal/MNdlBNhmDBLuzqp.png',
+        },
+        title: { className: 'content6-title', children: '中国健康云及中国妇女儿童发展中心 ' },
+        content: {
+          className: 'content6-content',
+          children:
+            '',
+        },
+      },
+      {
+        name: 'block2',
+        img: {
+          className: 'content6-icon',
+          children:
+            'https://zos.alipayobjects.com/rmsportal/MNdlBNhmDBLuzqp.png',
+        },
+        title: { className: 'content6-title', children: '云南云水环保科技集团公司 ' },
+        content: {
+          className: 'content6-content',
+          children:
+            '',
+        },
+      },
     ],
   },
 };

@@ -326,11 +326,10 @@ export const Content10DataSource = {
     children:'',
   },
 };
+
 export const Content30DataSource = {
-  wrapper: {
-    className: 'home-page-wrapper content3-wrapper judp0790vyg-editor_css',
-  },
-  page: { className: 'home-page content3 juditzplhh-editor_css' },
+  wrapper: { className: 'home-page-wrapper content4-wrapper' },
+  page: { className: 'home-page content4 juinpkhwy7-editor_css' },
   OverPack: { playScale: 0.3 },
   titleWrapper: {
     className: 'title-wrapper',
@@ -339,9 +338,7 @@ export const Content30DataSource = {
         name: 'title',
         children: (
           <span>
-            <p>
-              我们的优势<br />
-            </p>
+            <p>我们的优势</p>
           </span>
         ),
         className: 'title-h1',
@@ -358,22 +355,22 @@ export const Content30DataSource = {
     ],
   },
   block: {
-    className: 'content3-block-wrapper',
+    className: 'content4-block-wrapper',
     children: [
       {
         name: 'block0',
-        className: 'content3-block',
+        className: 'content4-block',
         md: 12,
         xs: 24,
         children: {
           icon: {
-            className: 'content3-icon',
+            className: 'content4-icon',
             children:
               'https://zos.alipayobjects.com/rmsportal/ScHBSdwpTkAHZkJ.png',
           },
-          textWrapper: { className: 'content3-text' },
+          textWrapper: { className: 'content4-text' },
           title: {
-            className: 'content3-title judi46teo0f-editor_css',
+            className: 'content4-title',
             children: (
               <span>
                 <p>
@@ -384,7 +381,7 @@ export const Content30DataSource = {
             ),
           },
           content: {
-            className: 'content3-content',
+            className: 'content4-content',
             children: (
               <span>
                 <br />
@@ -395,17 +392,18 @@ export const Content30DataSource = {
       },
       {
         name: 'block1',
-        className: 'content3-block',
+        className: 'content4-block',
         md: 12,
         xs: 24,
         children: {
           icon: {
-            className: 'content3-icon',
-            children:require('../../assets/images/check-04.png'),
+            className: 'content4-icon juinmupop4a-editor_css',
+            children:
+              'https://zos.alipayobjects.com/rmsportal/NKBELAOuuKbofDD.png',
           },
-          textWrapper: { className: 'content3-text' },
+          textWrapper: { className: 'content4-text' },
           title: {
-            className: 'content3-title judi93oibsm-editor_css',
+            className: 'content4-title juinlfdenvo-editor_css',
             children: (
               <span>
                 <p>
@@ -415,7 +413,7 @@ export const Content30DataSource = {
             ),
           },
           content: {
-            className: 'content3-content',
+            className: 'content4-content',
             children: (
               <span>
                 <br />
@@ -426,18 +424,18 @@ export const Content30DataSource = {
       },
       {
         name: 'block2',
-        className: 'content3-block',
-        md: 12,
+        className: 'content4-block',
+        md: 8,
         xs: 24,
         children: {
           icon: {
-            className: 'content3-icon',
+            className: 'content4-icon',
             children:
               'https://zos.alipayobjects.com/rmsportal/xMSBjgxBhKfyMWX.png',
           },
-          textWrapper: { className: 'content3-text' },
+          textWrapper: { className: 'content4-text' },
           title: {
-            className: 'content3-title judi9j97zet-editor_css',
+            className: 'content4-title',
             children: (
               <span>
                 <p>
@@ -448,7 +446,7 @@ export const Content30DataSource = {
             ),
           },
           content: {
-            className: 'content3-content',
+            className: 'content4-content',
             children: (
               <span>
                 <br />
@@ -459,29 +457,29 @@ export const Content30DataSource = {
       },
       {
         name: 'block3',
-        className: 'content3-block',
-        md: 12,
+        className: 'content4-block',
+        md: 8,
         xs: 24,
         children: {
           icon: {
-            className: 'content3-icon',
+            className: 'content4-icon',
             children:
               'https://zos.alipayobjects.com/rmsportal/MNdlBNhmDBLuzqp.png',
           },
-          textWrapper: { className: 'content3-text' },
+          textWrapper: { className: 'content4-text' },
           title: {
-            className: 'content3-title judi9v4wvw9-editor_css',
+            className: 'content4-title',
             children: (
               <span>
                 <p>
-                  听力游戏由美国耳鼻喉科医生和专家设计，
-                  经国内外临床试验验证， 确保筛查效果！
+                  听力游戏由美国耳鼻喉科医生和专家设计， 经国内外临床试验验证，
+                  确保筛查效果！
                 </p>
               </span>
             ),
           },
           content: {
-            className: 'content3-content',
+            className: 'content4-content',
             children: (
               <span>
                 <br />
@@ -492,18 +490,18 @@ export const Content30DataSource = {
       },
       {
         name: 'block4',
-        className: 'content3-block',
-        md: 12,
+        className: 'content4-block',
+        md: 8,
         xs: 24,
         children: {
           icon: {
-            className: 'content3-icon',
+            className: 'content4-icon',
             children:
               'https://zos.alipayobjects.com/rmsportal/UsUmoBRyLvkIQeO.png',
           },
-          textWrapper: { className: 'content3-text' },
+          textWrapper: { className: 'content4-text' },
           title: {
-            className: 'content3-title judiat21hb-editor_css',
+            className: 'content4-title',
             children: (
               <span>
                 <p>丰富经验的管理和技术团队，具有多年开发一流产品的经验！</p>
@@ -511,7 +509,7 @@ export const Content30DataSource = {
             ),
           },
           content: {
-            className: 'content3-content',
+            className: 'content4-content',
             children: (
               <span>
                 <br />
@@ -523,6 +521,7 @@ export const Content30DataSource = {
     ],
   },
 };
+
 //home原生的
 export const Content33DataSource = {
   wrapper: { className: 'home-page-wrapper content3-wrapper' },
@@ -914,11 +913,17 @@ export const Content50DataSource = {
   titleWrapper: {
     className: 'title-wrapper',
     children: [
-      { name: 'title', children: '行业现状', className: 'title-h1' },
+      { name: 'title',
+        children:
+          <span>
+            <b>产品与服务</b>
+          </span>
+        ,
+        className: 'title-h1' },
       {
         name: 'content',
         className: 'title-content',
-        children: '',
+        children: '——筛查--出报告--出档案',
       },
     ],
   },
@@ -929,69 +934,74 @@ export const Content50DataSource = {
       {
         name: 'block0',
         className: 'block',
-        md: 12,
+        md: 8,
         xs: 24,
         children: {
           wrapper: { className: 'content7-block-content' },
           img: {
-            children:require('../../assets/images/hyxz0.png'),
+            children:require('../../assets/images/pruductService0.png'),
           },
           content: { children:
               <span>
-                <h2>手段单一</h2>
-                <p>目前，只有大型三甲医院才有静音室和听力师，无法满足全国5-12岁儿童对听力筛查的经常性和随时性要求，导致随访严重不足。</p>
+                <p>&emsp;</p>
+                <h2>&emsp;&emsp;&emsp;基于软件的纯音听力筛查</h2>
+                <p>&emsp;&emsp;&emsp;&emsp;</p>
+                <p>&emsp;&emsp;&emsp;轻度听力缺损</p>
+                <p>&emsp;&emsp;&emsp;中度听力缺损</p>
+                <p>&emsp;&emsp;&emsp;重度听力缺损</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
               </span> },
         },
       },
       {
         name: 'block1',
-        className: 'block',
-        md: 12,
+        className: 'block2',
+        md: 8,
         xs: 24,
         children: {
           wrapper: { className: 'content7-block-content' },
           img: {
-            children:require('../../assets/images/hyxz1.png'),
+            children:require('../../assets/images/pruductService1.png'),
           },
           content: { children:
               <span>
-                <h2>政策缺失</h2>
-                <p>目前为止，所有的听力筛查相关政策文件都是针对新生儿，对于4岁之后的少年儿童没有强制性听力监测政策，导致家长没有对孩子在这一阶段的听力筛查以足够重视。</p>
-              </span> },
-        },
-      },
-      {
-        name: 'block2',
-        className: 'block',
-        md: 12,
-        xs: 24,
-        children: {
-          wrapper: { className: 'content7-block-content' },
-          img: {
-            children:require('../../assets/images/hyxz2.png'),
-          },
-          content: { children:
-              <span>
-                <h2>成本过高</h2>
-                <p>三甲医院需要采购大量听力检测仪，同时雇佣听力师进行测试，成本居高不下。同时，大量三、四线和乡镇儿童需要到一、二线城市大医院进行测试，成本较高且十分不方便。</p>
+                <p>&emsp;</p>
+                <h2>基于硬件的视力筛查</h2>
+                <p>&emsp;</p>
+                <p align="left">&emsp;&emsp;&emsp;近视 </p>
+                <p align="left">&emsp;&emsp;&emsp;远视  </p>
+                <p align="left">&emsp;&emsp;&emsp;散光（视力模糊）</p>
+                <p align="left">&emsp;&emsp;&emsp;屈光参差（不同的屈光率）</p>
+                <p align="left">&emsp;&emsp;&emsp;斜视（眼位偏斜） </p>
+                <p align="left">&emsp;&emsp;&emsp;瞳孔不等（瞳孔大小不等）</p>
+
               </span>
           },
         },
       },
       {
-        name: 'block3',
-        className: 'block',
-        md: 12,
+        name: 'block2',
+        className: 'block3',
+        md: 8,
         xs: 24,
         children: {
           wrapper: { className: 'content7-block-content' },
           img: {
-            children:require('../../assets/images/hyxz3.png'),
+            children:require('../../assets/images/pruductService3.jpg'),
           },
           content: { children:
               <span>
-                <h2>专业要求</h2>
-                <p>目前视力筛查要求由专业人员进行操作，费时，费力，效率非常低，而且既不易于普及。</p>
+                <p>&emsp;</p>
+                <h2>&nbsp;&nbsp;&nbsp;学生、学校、区县、市筛查分析报告</h2>
+                <p>&emsp;</p>
+                <p>&emsp;&emsp;&emsp;针对学生的情况，出具详细的筛查报告;</p>
+                <p>&emsp;&emsp;&emsp;对学校、区县、市筛查数据进行分析;</p>
+                <p>&emsp;&emsp;&emsp;筛查学校、年级、区县、城镇、农村分布等;</p>
+                <p>&emsp;&emsp;&emsp;筛查年龄分布，人数、性别分布，程度分布等；</p>
+                <p>&emsp;&emsp;&emsp;筛查正常与异常对比。</p>
+                <p>&emsp;</p>
               </span>
           },
         },
@@ -1051,7 +1061,7 @@ export const Content80DataSource = {
         },
       },
       {
-        name: 'block1',
+        name: 'block2',
         md: 6,
         xs: 24,
         className: 'content8-block-wrapper',
@@ -1070,7 +1080,7 @@ export const Content80DataSource = {
         },
       },
       {
-        name: 'block2',
+        name: 'block1',
         md: 6,
         xs: 24,
         className: 'content8-block-wrapper',
@@ -1302,7 +1312,7 @@ export const Content60DataSource = {
           ),
         },
       },
-      {
+/*      {
         name: 'block~judk2111gyo',
         img: {
           className: 'content6-icon',
@@ -1381,7 +1391,7 @@ export const Content60DataSource = {
             </span>
           ),
         },
-      },
+      },*/
     ],
   },
 };
@@ -1680,6 +1690,54 @@ export const Content61DataSource = {
           children: (
             <span>
               <p>美国Hearing.Game, LLC</p>
+            </span>
+          ),
+        },
+        content: {
+          className: 'content6-content',
+          children: (
+            <span>
+              <br />
+            </span>
+          ),
+        },
+      },
+      {
+        name: 'block3',
+        img: {
+          className: 'content6-icon',
+          children:
+            'https://zos.alipayobjects.com/rmsportal/MNdlBNhmDBLuzqp.png',
+        },
+        title: {
+          className: 'content6-title',
+          children: (
+            <span>
+              <p>中国健康云及中国妇女儿童发展中心 </p>
+            </span>
+          ),
+        },
+        content: {
+          className: 'content6-content',
+          children: (
+            <span>
+              <br />
+            </span>
+          ),
+        },
+      },
+      {
+        name: 'block4',
+        img: {
+          className: 'content6-icon',
+          children:
+            'https://zos.alipayobjects.com/rmsportal/MNdlBNhmDBLuzqp.png',
+        },
+        title: {
+          className: 'content6-title',
+          children: (
+            <span>
+              <p>云南云水环保科技集团公司 </p>
             </span>
           ),
         },

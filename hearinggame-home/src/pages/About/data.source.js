@@ -1,4 +1,205 @@
 import React from 'react';
+
+export const Content60DataSource = {
+  wrapper: { className: 'home-page-wrapper content6-wrapper' },
+  OverPack: { className: 'home-page content6 judiwp4pmfs-editor_css' },
+  textWrapper: { className: 'content6-text', xs: 24, md: 10 },
+  titleWrapper: {
+    className: 'title-wrapper',
+    children: [
+      {
+        name: 'title',
+        children: (
+          <span>
+            <p>
+              关于我们<br />
+            </p>
+          </span>
+        ),
+        className: 'title-h1 judjdblns99-editor_css',
+      },
+      {
+        name: 'content',
+        className: 'title-content',
+        children: (
+          <span>
+            <br />
+          </span>
+        ),
+      },
+    ],
+  },
+  img: {
+    children: 'https://zos.alipayobjects.com/rmsportal/VHGOVdYyBwuyqCx.png',
+    className: 'content6-img',
+    xs: 24,
+    md: 14,
+  },
+  block: {
+    children: [
+      {
+        name: 'block0',
+        img: {
+          children:
+            'https://zos.alipayobjects.com/rmsportal/NKBELAOuuKbofDD.png',
+          className: 'content6-icon',
+        },
+        title: {
+          className: 'content6-title',
+          children: (
+            <span>
+              <p>公司名称</p>
+            </span>
+          ),
+        },
+        content: {
+          className: 'content6-content',
+          children: (
+            <span>
+              <p>听游（北京）科技有限公司</p>
+            </span>
+          ),
+        },
+      },
+      {
+        name: 'block1',
+        img: {
+          className: 'content6-icon',
+          children:
+            'https://zos.alipayobjects.com/rmsportal/xMSBjgxBhKfyMWX.png',
+        },
+        title: {
+          className: 'content6-title',
+          children: (
+            <span>
+              <p>
+                公司宗旨<br />
+              </p>
+            </span>
+          ),
+        },
+        content: {
+          className: 'content6-content',
+          children: (
+            <span>
+              <p>把听力筛查送进千家万户</p>
+            </span>
+          ),
+        },
+      },
+      {
+        name: 'block2',
+        img: {
+          className: 'content6-icon',
+          children:
+            'https://zos.alipayobjects.com/rmsportal/MNdlBNhmDBLuzqp.png',
+        },
+        title: {
+          className: 'content6-title',
+          children: (
+            <span>
+              <p>
+                未来愿景<br />
+              </p>
+            </span>
+          ),
+        },
+        content: {
+          className: 'content6-content',
+          children: (
+            <span>
+              <p>
+                依托先进的医学科研成果，填补中国儿童听力筛查的空白，把儿童听力筛查的能力“免费”送到幼儿园，学校和家庭，
+                以及偏远的地区
+              </p>
+            </span>
+          ),
+        },
+      },
+      {
+        name: 'block~judk2111gyo',
+        img: {
+          className: 'content6-icon',
+          children:
+            'https://zos.alipayobjects.com/rmsportal/MNdlBNhmDBLuzqp.png',
+        },
+        title: {
+          className: 'content6-title',
+          children: (
+            <span>
+              <p>产品特点</p>
+            </span>
+          ),
+        },
+        content: {
+          className: 'content6-content',
+          children: (
+            <span>
+              <p>
+                把儿童听力筛查变成一件简单易行并不被儿童反感的事情。让儿童在“玩”手机游戏的同时，
+                即完成了有关听力的筛查。产品能够提供筛查，问诊，确诊和治疗的一条龙闭环服务。
+              </p>
+            </span>
+          ),
+        },
+      },
+      {
+        name: 'block~judk2q7bd4',
+        img: {
+          className: 'content6-icon',
+          children:
+            'https://zos.alipayobjects.com/rmsportal/MNdlBNhmDBLuzqp.png',
+        },
+        title: {
+          className: 'content6-title',
+          children: (
+            <span>
+              <p>核心资源</p>
+            </span>
+          ),
+        },
+        content: {
+          className: 'content6-content',
+          children: (
+            <span>
+              <p>
+                公司持有美国Kids Hearing
+                Game在中国的独家使用权，创始团队与国内外耳科专家、儿科专家拥有良好的合作伙伴关系，可以随时获取专业医学知识的支撑，线下医疗行业资源丰富，渠道拓展能力强。
+              </p>
+            </span>
+          ),
+        },
+      },
+      {
+        name: 'block~judk3bjim8',
+        img: {
+          className: 'content6-icon',
+          children:
+            'https://zos.alipayobjects.com/rmsportal/MNdlBNhmDBLuzqp.png',
+        },
+        title: {
+          className: 'content6-title',
+          children: (
+            <span>
+              <p>强大团队</p>
+            </span>
+          ),
+        },
+        content: {
+          className: 'content6-content',
+          children: (
+            <span>
+              <p>
+                创始团队深耕健康、医疗和互联网行业多年，对医疗、传媒和互联网行业有深刻的行业理解，同时拥有广泛的线下医疗行业资源。
+              </p>
+            </span>
+          ),
+        },
+      },
+    ],
+  },
+};
+
 export const Content51DataSource = {
   wrapper: { className: 'home-page-wrapper content5-wrapper' },
   page: { className: 'home-page content5' },

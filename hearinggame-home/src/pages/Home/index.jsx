@@ -5,14 +5,17 @@ import {enquireScreen} from 'enquire-js';
 
 import Nav1 from './Nav1';
 import Banner1 from './Banner1';
-import Content3 from './Content3';
-import Content10 from './Content10';
 import Content2 from './Content2';
+import Content3 from './Content3';
+import Content4 from './Content4';
 import Content5 from './Content5';
-import Content8 from './Content8';
 import Content6 from './Content6';
-import Footer1 from './Footer1';
 import Content7 from './Content7';
+import Content8 from './Content8';
+import Content10 from './Content10';
+import Footer1 from './Footer1';
+
+
 
 
 
@@ -84,10 +87,10 @@ export default class Home extends React.Component {
         dataSource={Banner10DataSource}
         isMobile={this.state.isMobile}
       />,
-      <Content3
-        id="Content3_3"
-        key="Content3_3"
-        dataSource={Content33DataSource}
+      <Content7
+        id="Content7_0"
+        key="Content7_0"
+        dataSource={Content50DataSource}
         isMobile={this.state.isMobile}
       />,
       <Content3
@@ -96,12 +99,7 @@ export default class Home extends React.Component {
         dataSource={Content31DataSource}
         isMobile={this.state.isMobile}
       />,
-      <Content7
-        id="Content7_0"
-        key="Content7_0"
-        dataSource={Content50DataSource}
-        isMobile={this.state.isMobile}
-      />,
+
   /*//方案文字+拼接
   <Content2
         id="Content2_1"
@@ -115,9 +113,9 @@ export default class Home extends React.Component {
         dataSource={Content10DataSource}
         isMobile={this.state.isMobile}
       />,
-      <Content3
-        id="Content3_0"
-        key="Content3_0"
+      <Content4
+        id="Content4_0"
+        key="Content4_0"
         dataSource={Content30DataSource}
         isMobile={this.state.isMobile}
       />,

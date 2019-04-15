@@ -5,16 +5,23 @@ import OverPack from 'rc-scroll-anim/lib/ScrollOverPack';
 
 class Content7 extends React.PureComponent {
   getChildrenToRender = (data) =>
-    data.map((item) => {
+    data.map((item,index) => {
       return (
+
+     /*   <div >
+          <img src={item.children.img.children}  width="40%" alt="柔性显示屏"/>
+          <p {...item.children.content}>{item.children.content.children}</p>
+    </div>*/
+
         <Col key={item.name} {...item}>
           <div {...item.children.wrapper}>
             <span {...item.children.img}>
-              <img src={item.children.img.children} height="120px" alt="img" />
+              <img src={item.children.img.children} height="200px" width="100%" alt="img" />
             </span>
             <p {...item.children.content}>{item.children.content.children}</p>
           </div>
         </Col>
+
       );
     });
 
