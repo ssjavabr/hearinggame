@@ -6,7 +6,7 @@ import Content5 from './Content5';
 import Content6 from './Content6';
 import { Content51DataSource } from './data.source';
 import './less/antMotionStyle.less';
-import {Content60DataSource} from "../Home/data.source";
+import {Content60DataSource} from "./data.source";
 
 
 let isMobile;

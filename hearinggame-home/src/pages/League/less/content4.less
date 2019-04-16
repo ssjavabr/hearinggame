@@ -1,8 +1,8 @@
-@content3: content3;
-.@{content3}-wrapper {
-  background-color:#F8F8FF;
+@content4: content4;
+.@{content4}-wrapper {
   min-height: 764px;
-  .@{content3} {
+  background-color: #d2f0d2;
+  .@{content4} {
     height: 100%;
     overflow: hidden;
     & .title-content {
@@ -10,19 +10,21 @@
     }
     &-block-wrapper {
       position: relative;
-      .@{content3}-block {
+      .@{content4}-block {
         display: inline-block;
-        padding: 48px 24px;
+        padding: 0px 0px;
         vertical-align: top;
-        .@{content3}-icon {
+        .@{content4}-icon {
           display: inline-block;
-          width: 15%;
+          width: 30%;
           vertical-align: top;
+          margin-top: 10%;
         }
-        .@{content3}-text {
-          width: 85%;
+        .@{content4}-text {
+          width: 70%;
           display: inline-block;
-          padding-left: 53%;
+          padding-left: 2%;
+          margin-top: -120px;
         }
         &.clear-both {
           clear: both;
@@ -33,14 +35,14 @@
 }
 
 @media screen and (max-width: 767px) {
-  .@{content3}-wrapper {
+  .@{content4}-wrapper {
     min-height: 1080px;
-    .@{content3} {
+    .@{content4} {
       &-block-wrapper {
         margin: 20px auto;
         height: auto;
-        .@{content3}-block {
-          .@{content3}-title {
+        .@{content4}-block {
+          .@{content4}-title {
             font-size: 20px;
           }
           &.queue-anim-leaving {

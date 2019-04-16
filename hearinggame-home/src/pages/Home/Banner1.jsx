@@ -1,5 +1,4 @@
 import React from 'react';
-import { Button, Icon } from 'antd';
 import QueueAnim from 'rc-queue-anim';
 import TweenOne, { TweenOneGroup } from 'rc-tween-one';
 import BannerAnim, { Element } from 'rc-banner-anim';
@@ -16,7 +15,7 @@ class Banner extends React.PureComponent {
       const elem = item.BannerElement;
       const elemClassName = elem.className;
       delete elem.className;
-      const { bg, textWrapper, title, content, button } = item;
+      const { bg, textWrapper, title, content } = item;
       return (
         <Element key={i.toString()} {...elem} prefixCls={elemClassName}>
           <BgElement key="bg" {...bg} />
@@ -39,9 +38,7 @@ class Banner extends React.PureComponent {
             <div key="content" {...content}>
               {content.children}
             </div>
-            <Button ghost key="button" {...button}>
-              {button.children}
-            </Button>
+
           </QueueAnim>
         </Element>
       );
@@ -60,19 +57,7 @@ class Banner extends React.PureComponent {
             </BannerAnim>
           </div>
         </TweenOneGroup>
-        <TweenOne
-          animation={{
-            y: '-=20',
-            yoyo: true,
-            repeat: -1,
-            duration: 1000,
-          }}
-          className="banner1-icon"
-          style={{ bottom: 40 }}
-          key="icon"
-        >
-          <Icon type="down" />
-        </TweenOne>
+
       </div>
     );
   }

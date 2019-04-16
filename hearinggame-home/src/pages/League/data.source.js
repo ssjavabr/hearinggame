@@ -10,9 +10,6 @@ export const Content30DataSource = {
         name: 'title',
         children: (
           <span>
-            <h1>
-              知识分享<br />
-            </h1>
           </span>
         ),
         className: 'title-h1',
@@ -22,7 +19,6 @@ export const Content30DataSource = {
         className: 'title-content',
         children: (
           <span>
-            <br />
           </span>
         ),
       },
@@ -46,7 +42,8 @@ export const Content30DataSource = {
             className: 'content3-title juhu10s1i9t-editor_css',
             children: (
               <span>
-                <p>人耳的结构</p><br/>
+                <p><div align="center">人耳的结构</div></p>
+                <p>&nbsp;</p>
               </span>
             ),
           },
@@ -72,30 +69,62 @@ export const Content30DataSource = {
           },
         },
       },
+    ],
+  },
+};
+export const Content31DataSource = {
+  wrapper: { className: 'home-page-wrapper content4-wrapper' },
+  page: { className: 'home-page content4' },
+  OverPack: { playScale: 0.3 },
+  titleWrapper: {
+    className: 'title-wrapper',
+    children: [
+      {
+        name: 'title',
+        children: (
+          <span>
+          </span>
+        ),
+        className: 'title-h1',
+      },
+      {
+        name: 'content',
+        className: 'title-content',
+        children: (
+          <span>
+          </span>
+        ),
+      },
+    ],
+  },
+  block: {
+    className: 'content4-block-wrapper',
+    children: [
       {
         name: 'block~juhu03b7kyb',
-        className: 'content3-block',
+        className: 'content4-block',
         md: 24,
         xs: 24,
         children: {
           icon: {
-            className: 'content3-icon',
+            className: 'content4-icon',
             children:
               '',
           },
-          textWrapper: { className: 'content3-text' },
+          textWrapper: { className: 'content4-text' },
           title: {
-            className: 'content3-title juhu10s1i9t-editor_css',
+            className: 'content4-title juhu10s1i9t-editor_css',
             children: (
               <span>
                 <p>
-                  科普教育<br />
+                  <div align="center">中耳炎对听力的影响</div>
                 </p>
+                <p>&nbsp;</p>
               </span>
             ),
           },
           content: {
-            className: 'content3-content',
+            className: 'content4-content',
             children: (
               <span>
                 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;中耳炎对儿童听力和语言发展的影响： </p>
@@ -116,27 +145,60 @@ export const Content30DataSource = {
           },
         },
       },
+    ],
+  },
+};
+export const Content32DataSource = {
+  wrapper: { className: 'home-page-wrapper content5-wrapper' },
+  page: { className: 'home-page content5' },
+  OverPack: { playScale: 0.3 },
+  titleWrapper: {
+    className: 'title-wrapper',
+    children: [
+      {
+        name: 'title',
+        children: (
+          <span>
+          </span>
+        ),
+        className: 'title-h1',
+      },
+      {
+        name: 'content',
+        className: 'title-content',
+        children: (
+          <span>
+          </span>
+        ),
+      },
+    ],
+  },
+  block: {
+    className: 'content5-block-wrapper',
+    children: [
       {
         name: 'block~juhu2a4dt8p',
-        className: 'content3-block',
+        className: 'content5-block',
         md: 24,
         xs: 24,
         children: {
           icon: {
-            className: 'content3-icon juhu59hyw4s-editor_css',
+            className: 'content5-icon juhu59hyw4s-editor_css',
             children:require('../../assets/images/zsfx1.jpg'),
-        },
-          textWrapper: { className: 'content3-text' },
+          },
+          textWrapper: { className: 'content5-text' },
           title: {
-            className: 'content3-title juhu10s1i9t-editor_css',
+            className: 'content5-title juhu10s1i9t-editor_css',
             children: (
               <span>
-                <p>医学知识 鼓膜置管术 </p>
+                <p><div align="center">医学知识 鼓膜置管术</div> </p>
+                <p>&nbsp;</p>
               </span>
+
             ),
           },
           content: {
-            className: 'content3-content',
+            className: 'content5-content',
             children: (
               <span>
                 <p>
@@ -341,30 +403,63 @@ export const Content30DataSource = {
           },
         },
       },
+    ],
+  },
+};
+export const Content33DataSource = {
+  wrapper: { className: 'home-page-wrapper content6-wrapper' },
+  page: { className: 'home-page content6' },
+  OverPack: { playScale: 0.3 },
+  titleWrapper: {
+    className: 'title-wrapper',
+    children: [
+      {
+        name: 'title',
+        children: (
+          <span>
+          </span>
+        ),
+        className: 'title-h1',
+      },
+      {
+        name: 'content',
+        className: 'title-content',
+        children: (
+          <span>
+          </span>
+        ),
+      },
+    ],
+  },
+  block: {
+    className: 'content6-block-wrapper',
+    children: [
+
       {
         name: 'block~juhu640y7j',
-        className: 'content3-block juhu5yaiazu-editor_css',
+        className: 'content6-block juhu5yaiazu-editor_css',
         md: 24,
         xs: 24,
         children: {
           icon: {
-            className: 'content3-icon juhu59hyw4s-editor_css',
+            className: 'content6-icon juhu59hyw4s-editor_css',
             children:
               '',
           },
-          textWrapper: { className: 'content3-text' },
+          textWrapper: { className: 'content6-text' },
           title: {
-            className: 'content3-title juhu10s1i9t-editor_css',
+            className: 'content6-title juhu10s1i9t-editor_css',
             children: (
               <span>
                 <p>
-                  听力下降对儿童的影响<br />
+                   <div align="center">听力下降对儿童的影响</div><br />
                 </p>
+                <p>&nbsp;</p>
               </span>
             ),
           },
           content: {
-            className: 'content3-content',
+            className: 'content6-content',
             children: (
               <span>
                 <p>

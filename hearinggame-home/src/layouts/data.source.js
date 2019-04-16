@@ -33,14 +33,13 @@ export const Footer10DataSource = {
         className: 'block',
         title: {
           className: 'logo',
-          children:
-            'https://zos.alipayobjects.com/rmsportal/qqaimmXZVSwAhpL.svg',
+          children:require('../assets/bg2.png'),
         },
         content: {
           className: 'slogan',
           children: (
             <span>
-              <p>听游使命用语</p>
+              <p>把听力筛查能力送进千家万户</p>
             </span>
           ),
         },
@@ -101,7 +100,7 @@ export const Footer10DataSource = {
         title: {
           children: (
             <span>
-              <h2>4008-123-456</h2>
+              <h2><font color="white">4008-123-456</font></h2>
               <p>
                 <br/>
               </p>
@@ -130,7 +129,7 @@ export const Footer10DataSource = {
       <span>
         <p>
           <i>
-            版权所有©2018 听游科技(北京)有限责任公司&nbsp; &nbsp; &nbsp; &nbsp;
+            版权所有©2019 听游科技(北京)有限责任公司&nbsp; &nbsp; &nbsp; &nbsp;
             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;京ICP备12345678号&nbsp;
             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 京公安网备123456789号
           </i>

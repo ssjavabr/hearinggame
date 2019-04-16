@@ -227,7 +227,7 @@ export const Content51DataSource = {
   },
   block: {
     className: 'content5-img-wrapper judni5xyx4-editor_css',
-    gutter: 16,
+    gutter: 8,
     children: [
       {
         name: 'block0',

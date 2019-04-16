@@ -64,16 +64,6 @@ export const Banner10DataSource = {
             </span>
           ),
         },
-        button: {
-          className: 'banner1-button',
-          children: (
-            <span>
-              <p>
-                了解更多<br />
-              </p>
-            </span>
-          ),
-        },
       },
       {
         name: 'elem1',
@@ -94,14 +84,7 @@ export const Banner10DataSource = {
             </span>
           ),
         },
-        button: {
-          className: 'banner1-button',
-          children: (
-            <span>
-              <p>了解更多</p>
-            </span>
-          ),
-        },
+
       },
       {
         name: 'elem2',
@@ -122,7 +105,7 @@ export const Banner10DataSource = {
             </span>
           ),
         },
-        button: {
+     /*   button: {
           className: 'banner1-button',
           children: (
             <span>
@@ -131,70 +114,9 @@ export const Banner10DataSource = {
               </p>
             </span>
           ),
-        },
+        },*/
       },
-      {
-        name: 'elem~judgtmavxak',
-        BannerElement: { className: 'banner-user-elem' },
-        textWrapper: { className: 'banner1-text-wrapper' },
-        bg: { className: 'bg bg1' },
-        title: {
-          className: 'banner1-title',
-          children:require('../../assets/images/check-03.png'),
-        },
-        content: {
-          className: 'banner1-content',
-          children: (
-            <span>
-              <p>
-                •据美国权威机构研究，轻度儿童听力损失，可以造成GPA1.0的下降,
-                相当于10-15分的下降！
-              </p>
-            </span>
-          ),
-        },
-        button: {
-          className: 'banner1-button',
-          children: (
-            <span>
-              <p>
-                了解更多<br />
-              </p>
-            </span>
-          ),
-        },
-      },
-      {
-        name: 'elem~judgvki3jm',
-        BannerElement: { className: 'banner-user-elem' },
-        textWrapper: { className: 'banner1-text-wrapper' },
-        bg: { className: 'bg bg1' },
-        title: {
-          className: 'banner1-title',
-          children:require('../../assets/images/check-04.png'),
-        },
-        content: {
-          className: 'banner1-content',
-          children: (
-            <span>
-              <p>
-                中轻度听力损失不易察觉，直接影响学习成绩,
-                社交能力和自信心——儿童的中轻度听力损失不易察觉，且30%听力障碍为迟发性，仅靠新生儿听力筛查不能解决问题。
-              </p>
-            </span>
-          ),
-        },
-        button: {
-          className: 'banner1-button',
-          children: (
-            <span>
-              <p>
-                了解更多<br />
-              </p>
-            </span>
-          ),
-        },
-      },
+
     ],
   },
 };
@@ -310,19 +232,19 @@ export const Content00DataSource = {
     children:require('../../assets/images/duibi.png'),
   },
 };*/
-//方案
+//听力+视力筛查整体方案
 export const Content10DataSource = {
-  wrapper: { className: 'home-page-wrapper content1-wrapper' },
-  OverPack: { className: 'home-page content1', playScale: 0.3 },
-  imgWrapper: { className: 'content1-img', md: 23, xs: 24 },
+  wrapper: { className: 'home-page-wrapper content10-wrapper' },
+  OverPack: { className: 'home-page content10', playScale: 0.3 },
+  imgWrapper: { className: 'content10-img', md: 24, xs: 24 },
   img: {
     children: require('../../assets/images/scfangan.png'),
     className: 'juh4w1v5l9p-editor_css',
   },
-  textWrapper: { className: 'content1-text', md: 1, xs: 24 },
-  title: { className: 'content1-title', children: '' },
+  textWrapper: { className: 'content10-text', md: 24, xs: 24 },
+  title: { className: 'content10-title', children: '听力+视力筛查整体方案' },
   content: {
-    className: 'content1-content',
+    className: 'content10-content',
     children:'',
   },
 };
@@ -356,11 +278,12 @@ export const Content30DataSource = {
   },
   block: {
     className: 'content4-block-wrapper',
+    gutter: 8,
     children: [
       {
         name: 'block0',
         className: 'content4-block',
-        md: 12,
+        md: 6,
         xs: 24,
         children: {
           icon: {
@@ -373,9 +296,10 @@ export const Content30DataSource = {
             className: 'content4-title',
             children: (
               <span>
-                <p>
+                <p>&emsp;</p>
+                <p><font color="white" size="22px">
                   “听音捕萤火虫”是市场上唯一一款，专为儿童设计的具有听力筛查功能的手机游戏！该游戏大幅提高儿童的兴趣和参与感，
-                  从而改善听力筛查的质量。这和简单的“音频”测试APP有着本质的区别！
+                  从而改善听力筛查的质量。这和简单的“音频”测试APP有着本质的区别！</font>
                 </p>
               </span>
             ),
@@ -393,7 +317,7 @@ export const Content30DataSource = {
       {
         name: 'block1',
         className: 'content4-block',
-        md: 12,
+        md: 6,
         xs: 24,
         children: {
           icon: {
@@ -406,9 +330,10 @@ export const Content30DataSource = {
             className: 'content4-title juinlfdenvo-editor_css',
             children: (
               <span>
-                <p>
+                 <p>&emsp;</p>
+                <p><font color="white">
                   基于“机器学习”的声学算法，在筛查过程中，减少对专业医生(声学师)的依赖。把儿童听力筛查的能力送进“千家万户”，便于儿童听力筛查的普及和降低成本。
-                </p>
+                </font></p>
               </span>
             ),
           },
@@ -422,43 +347,11 @@ export const Content30DataSource = {
           },
         },
       },
-      {
-        name: 'block2',
-        className: 'content4-block',
-        md: 8,
-        xs: 24,
-        children: {
-          icon: {
-            className: 'content4-icon',
-            children:
-              'https://zos.alipayobjects.com/rmsportal/xMSBjgxBhKfyMWX.png',
-          },
-          textWrapper: { className: 'content4-text' },
-          title: {
-            className: 'content4-title',
-            children: (
-              <span>
-                <p>
-                  “机器学习”的应用，确保筛查的准确度，
-                  这一点，随着筛查数据增加而使得筛查准确度更加精确！
-                </p>
-              </span>
-            ),
-          },
-          content: {
-            className: 'content4-content',
-            children: (
-              <span>
-                <br />
-              </span>
-            ),
-          },
-        },
-      },
+
       {
         name: 'block3',
         className: 'content4-block',
-        md: 8,
+        md: 6,
         xs: 24,
         children: {
           icon: {
@@ -471,9 +364,10 @@ export const Content30DataSource = {
             className: 'content4-title',
             children: (
               <span>
-                <p>
+                 <p>&emsp;</p>
+                <p><font color="white">
                   听力游戏由美国耳鼻喉科医生和专家设计， 经国内外临床试验验证，
-                  确保筛查效果！
+                  确保筛查效果！</font>
                 </p>
               </span>
             ),
@@ -491,7 +385,7 @@ export const Content30DataSource = {
       {
         name: 'block4',
         className: 'content4-block',
-        md: 8,
+        md: 6,
         xs: 24,
         children: {
           icon: {
@@ -503,9 +397,10 @@ export const Content30DataSource = {
           title: {
             className: 'content4-title',
             children: (
-              <span>
+              <span><font color="white">
+                 <p>&emsp;</p>
                 <p>丰富经验的管理和技术团队，具有多年开发一流产品的经验！</p>
-              </span>
+              </font></span>
             ),
           },
           content: {
@@ -521,192 +416,6 @@ export const Content30DataSource = {
     ],
   },
 };
-
-//home原生的
-export const Content33DataSource = {
-  wrapper: { className: 'home-page-wrapper content3-wrapper' },
-  page: { className: 'home-page content3' },
-  OverPack: { playScale: 0.3 },
-  titleWrapper: {
-    className: 'title-wrapper',
-    children: [
-      {
-        name: 'title',
-        children: (
-          <span>
-            <p>产品与服务</p>
-          </span>
-        ),
-        className: 'title-h1',
-      },
-      {
-        name: 'content',
-        className: 'title-content',
-        children: (
-          <span>
-            <p>——筛查--出报告--出档案</p>
-          </span>
-        ),
-      },
-    ],
-  },
-  block: {
-    className: 'content3-block-wrapper',
-    children: [
-      {
-        name: 'block1',
-        className: 'content3-block',
-        md: 12,
-        xs: 24,
-        children: {
-          icon: {
-            className: 'content3-icon',
-            children:require('../../assets/images/pruductService0.png'),
-          },
-          textWrapper: { className: 'content3-text' },
-          title: {
-            className: 'content3-title',
-            children: (
-              <span >
-                <div >
-                <p>
-                  基于软件的纯音听力筛查<br />
-                </p>
-                </div>
-              </span>
-            ),
-          },
-          content: {
-            className: 'con tent3-content judrxb3smeu-editor_css',
-            children: (
-              <span >
-                <div >
-                <p>
-                  ● 轻度听力缺损 <br />
-                </p>
-                <p>●中度听力缺损</p>
-                <p> ● 重度听力缺损 </p>
-                </div>
-              </span>
-            ),
-          },
-        },
-      },
-      {
-        name: 'block2',
-        className: 'content3-block',
-        md: 12,
-        xs: 24,
-        children: {
-          icon: {
-            className: 'content3-icon',
-            children:require('../../assets/images/pruductService1.png'),
-          },
-          textWrapper: { className: 'content3-text' },
-          title: {
-            className: 'content3-title',
-            children: (
-              <span>
-                <div >
-                <p>基于硬件的视力筛查</p></div>
-              </span>
-            ),
-          },
-          content: {
-            className: 'content3-content juds08xbmin-editor_css',
-            children: (
-              <span>
-                 <div >
-                <p>
-                  ● 近视 <br />
-                </p>
-                <p>● 远视  <br /></p>
-                <p>● 散光（视力模糊） <br /></p>
-                <p> ● 屈光参差（不同的屈光率） <br /></p>
-                <p>● 斜视（眼位偏斜） <br /></p>
-                <p> ● 瞳孔不等（瞳孔大小不等） <br /></p></div>
-              </span>
-            ),
-          },
-        },
-      },
-      {
-        name: 'block3',
-        className: 'content3-block',
-        md: 12,
-        xs: 24,
-        children: {
-          icon: {
-            className: 'content3-icon',
-            children:require('../../assets/images/pruductService2.png'),
-          },
-          textWrapper: { className: 'content3-text' },
-          title: {
-            className: 'content3-title',
-            children: (
-              <span>
-                <p>
-                  学生筛查报告<br />
-                </p>
-              </span>
-            ),
-          },
-          content: {
-            className: 'content3-content',
-            children: (
-              <span>
-                <p>
-                  针对学生的情况，出具详细的筛查报告。<br />
-                </p>
-              </span>
-            ),
-          },
-        },
-      },
-      {
-        name: 'block4',
-        className: 'content3-block',
-        md: 12,
-        xs: 24,
-        children: {
-          icon: {
-            className: 'content3-icon',
-            children:require('../../assets/images/pruductService3.jpg'),
-          },
-          textWrapper: { className: 'content3-text' },
-          title: {
-            className: 'content3-title',
-            children: (
-              <span>
-                <p>学校、区县、市筛查分析报告</p>
-              </span>
-            ),
-          },
-          content: {
-            className: 'content3-content juds8jns7v-editor_css',
-            children: (
-              <span>
-                <p>对学校、区县、市筛查数据进行分析：</p>
-                <p>筛查城镇/农村分布，结论分布，程度分布等；</p>
-                <p>筛查学校分布，结论分布，程度分布等；</p>
-                <p>筛查年级分布，结论分布，程度分布等；</p>
-                <p>筛查区县分布，结论分布，程度分布等；</p>
-                <p>筛查年龄分布、筛查结论程度分布、筛查人数/性别分布、</p>
-                <p>
-                  筛查正常与异常对比。<br />
-                </p>
-                <p>
-                  <br />
-                </p>
-              </span>
-            ),
-          },
-        },
-      },
-    ],
-  },
-};
-
 
 
 
@@ -859,7 +568,7 @@ export const Content31DataSource = {
             children: (
               <span>
                 <p>
-                  目前视力筛查要求由专业人员进行操作，　费时，费力，　效率非常低，　而且既不易于普及。
+                  目前视力筛查要求由专业人员进行操作，费时，费力，效率非常低，而且既不易于普及。
                 </p>
               </span>
             ),
@@ -871,40 +580,6 @@ export const Content31DataSource = {
   },
 };
 
-//content21 整张图片模式
-
-export const Content21DataSource = {
-  wrapper: { className: 'home-page-wrapper content2-wrapper' },
-  OverPack: { className: 'home-page content2', playScale: 0.3 },
-  imgWrapper: { className: 'content2-img', md: 10, xs: 24 },
-  img: {
-    children:require('../../assets/images/scfangan.png'),
-    className: 'judsy13g2j-editor_css',
-  },
-  textWrapper: {
-    className: 'content2-text judsxjsnk-editor_css',
-    md: 14,
-    xs: 24,
-  },
-  title: {
-    className: 'content2-title',
-    children: (
-      <span>
-        <p>听力＋视力筛查整体方案</p>
-      </span>
-    ),
-  },
-  content: {
-    className: 'content2-content',
-    children: (
-      <span>
-        <p>
-          听力和视力筛查整体解决方案：提供基于听力、视力筛查的平台系统；为筛查服务提供整套筛查设备；为中小学学生提供定点到校实施筛查服务；并为筛查提供完整的服务报告（筛查学生报告、学校筛查报告、区县、市区整体筛查报告），并为每位同学建立筛查服务档案和数据。
-        </p>
-      </span>
-    ),
-  },
-};
 
 export const Content50DataSource = {
   wrapper: { className: 'home-page-wrapper content7-wrapper' },
@@ -929,7 +604,7 @@ export const Content50DataSource = {
   },
   block: {
     className: 'content7-img-wrapper',
-    gutter: 16,
+    gutter: 8,
     children: [
       {
         name: 'block0',
@@ -939,16 +614,17 @@ export const Content50DataSource = {
         children: {
           wrapper: { className: 'content7-block-content' },
           img: {
-            children:require('../../assets/images/pruductService0.png'),
+            children:require('../../assets/images/productService0.png'),
           },
           content: { children:
               <span>
                 <p>&emsp;</p>
-                <h2>&emsp;&emsp;&emsp;基于软件的纯音听力筛查</h2>
-                <p>&emsp;&emsp;&emsp;&emsp;</p>
-                <p>&emsp;&emsp;&emsp;轻度听力缺损</p>
-                <p>&emsp;&emsp;&emsp;中度听力缺损</p>
-                <p>&emsp;&emsp;&emsp;重度听力缺损</p>
+                <h1><strong><font color="#fff">&nbsp;&nbsp;基于软件的纯音听力筛查</font></strong></h1>
+                <p>&emsp;</p>
+                <p><em>&emsp;轻度听力缺损</em></p>
+                <p><em>&emsp;中度听力缺损</em></p>
+                <p><em>&emsp;重度听力缺损</em></p>
+                <p>&nbsp;</p>
                 <p>&nbsp;</p>
                 <p>&nbsp;</p>
                 <p>&nbsp;</p>
@@ -963,20 +639,20 @@ export const Content50DataSource = {
         children: {
           wrapper: { className: 'content7-block-content' },
           img: {
-            children:require('../../assets/images/pruductService1.png'),
+            children:require('../../assets/images/productService1.png'),
           },
           content: { children:
               <span>
                 <p>&emsp;</p>
-                <h2>基于硬件的视力筛查</h2>
+                <h2 align="left"><strong ><font color="#fff">&nbsp;&nbsp;基于硬件的视力筛查</font></strong></h2>
                 <p>&emsp;</p>
-                <p align="left">&emsp;&emsp;&emsp;近视 </p>
-                <p align="left">&emsp;&emsp;&emsp;远视  </p>
-                <p align="left">&emsp;&emsp;&emsp;散光（视力模糊）</p>
-                <p align="left">&emsp;&emsp;&emsp;屈光参差（不同的屈光率）</p>
-                <p align="left">&emsp;&emsp;&emsp;斜视（眼位偏斜） </p>
-                <p align="left">&emsp;&emsp;&emsp;瞳孔不等（瞳孔大小不等）</p>
-
+                <p align="left"><em>&emsp;近视</em> </p>
+                <p align="left"><em>&emsp;远视</em>  </p>
+                <p align="left"><em>&emsp;散光（视力模糊）</em></p>
+                <p align="left"><em>&emsp;屈光参差（不同的屈光率）</em></p>
+                <p align="left"><em>&emsp;斜视（眼位偏斜） </em></p>
+                <p align="left"><em>&emsp;瞳孔不等（瞳孔大小不等）</em></p>
+                <p>&emsp;</p>
               </span>
           },
         },
@@ -989,18 +665,19 @@ export const Content50DataSource = {
         children: {
           wrapper: { className: 'content7-block-content' },
           img: {
-            children:require('../../assets/images/pruductService3.jpg'),
+            children:require('../../assets/images/productService3.jpg'),
           },
           content: { children:
               <span>
                 <p>&emsp;</p>
-                <h2>&nbsp;&nbsp;&nbsp;学生、学校、区县、市筛查分析报告</h2>
+                <h2 ><strong><font color="#fff">&nbsp;&nbsp;学生及各级筛查分析报告</font></strong></h2>
                 <p>&emsp;</p>
-                <p>&emsp;&emsp;&emsp;针对学生的情况，出具详细的筛查报告;</p>
-                <p>&emsp;&emsp;&emsp;对学校、区县、市筛查数据进行分析;</p>
-                <p>&emsp;&emsp;&emsp;筛查学校、年级、区县、城镇、农村分布等;</p>
-                <p>&emsp;&emsp;&emsp;筛查年龄分布，人数、性别分布，程度分布等；</p>
-                <p>&emsp;&emsp;&emsp;筛查正常与异常对比。</p>
+                <p><em>&emsp;针对学生的情况，出具详细的筛查报告;</em></p>
+                <p><em>&emsp;对学校、区县、市筛查数据进行分析;</em></p>
+                <p><em>&emsp;筛查学校、年级、区县、城镇、农村分布等;</em></p>
+                <p><em>&emsp;筛查年龄、人数、性别分布，程度分布等；</em></p>
+                <p><em>&emsp;筛查正常与异常对比。</em></p>
+                <p>&emsp;</p>
                 <p>&emsp;</p>
               </span>
           },
@@ -1422,8 +1099,8 @@ export const Content51DataSource = {
   },
   block: {
     className: 'content5-img-wrapper judni5xyx4-editor_css',
-    gutter: 16,
-    children: [
+    gutter: 8,
+children: [
       {
         name: 'block0',
         className: 'block',
@@ -1641,7 +1318,7 @@ export const Content61DataSource = {
           className: 'content6-title',
           children: (
             <span>
-              <p>重庆医科大学附属儿童医院耳鼻喉科 </p>
+              <p>重庆医科大学附属儿童医院耳鼻喉科（重庆儿童听力障碍诊治中心） </p>
             </span>
           ),
         },
@@ -1665,7 +1342,7 @@ export const Content61DataSource = {
           className: 'content6-title',
           children: (
             <span>
-              <p>北京儿科研究所耳鼻喉科 </p>
+              <p>中国健康云及中国妇女儿童发展中心</p>
             </span>
           ),
         },
@@ -1689,7 +1366,7 @@ export const Content61DataSource = {
           className: 'content6-title',
           children: (
             <span>
-              <p>美国Hearing.Game, LLC</p>
+              <p>北京儿科研究所耳鼻喉科</p>
             </span>
           ),
         },
@@ -1713,7 +1390,7 @@ export const Content61DataSource = {
           className: 'content6-title',
           children: (
             <span>
-              <p>中国健康云及中国妇女儿童发展中心 </p>
+              <p>美国Hearing.Game, LLC</p>
             </span>
           ),
         },
@@ -1834,7 +1511,7 @@ export const Footer10DataSource = {
         title: {
           children: (
             <span>
-              <h2>4008-123-456</h2>
+              <h2><font color="white">4008-123-456</font></h2>
               <p>
                 <b>
                   <br />

@@ -13,7 +13,7 @@ class Content6 extends React.Component {
       return (
         <li key={item.name} {...item}>
           <span {...img}>
-            <img src={img.children} width="100%" alt="img" />
+            <img src={img.children}  width="100%" alt="img" />
           </span>
           <h2 {...title}>{title.children}</h2>
           <div {...content}>{content.children}</div>
