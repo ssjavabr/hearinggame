@@ -32,7 +32,7 @@ class Banner extends React.PureComponent {
               ) ? (
                 <img src={title.children} width="500px" alt="img"  />
               ) : (
-                title.children
+                 title.children
               )}
             </div>
             <div key="content" {...content}>

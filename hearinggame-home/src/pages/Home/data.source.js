@@ -43,6 +43,8 @@ export const Nav11DataSource = {
   },
   user: {},
 };
+
+
 export const Banner10DataSource = {
   wrapper: { className: 'banner1' },
   BannerAnim: {
@@ -53,11 +55,11 @@ export const Banner10DataSource = {
         textWrapper: { className: 'banner1-text-wrapper' },
         bg: { className: 'bg bg0' },
         title: {
-          className: 'banner1-title',
+          className: 'banner1-title ',
           children:require('../../assets/images/check-children.png'),
         },
         content: {
-          className: 'banner1-content',
+          className: 'banner1-content ',
           children: (
             <span>
               <p>听力影响的不仅仅是儿童的耳朵， 而是儿童的全部身心健康。</p>
@@ -71,11 +73,11 @@ export const Banner10DataSource = {
         textWrapper: { className: 'banner1-text-wrapper' },
         bg: { className: 'bg bg1' },
         title: {
-          className: 'banner1-title',
+          className: 'banner1-title juk1zmwo9tr-editor_css',
           children:require('../../assets/images/children-01.png'),
         },
         content: {
-          className: 'banner1-content',
+          className: 'banner1-content juk20wrz7c-editor_css ',
           children: (
             <span>
               <p>
@@ -92,15 +94,18 @@ export const Banner10DataSource = {
         textWrapper: { className: 'banner1-text-wrapper' },
         bg: { className: 'bg bg1' },
         title: {
-          className: 'banner1-title',
+          className: 'banner1-title juk22v844sr-editor_css',
           children:require('../../assets/images/check-02.png'),
         },
         content: {
-          className: 'banner1-content',
+          className: 'banner1-content juk23mn0648-editor_css',
           children: (
             <span>
               <p>
-                儿童听力障碍的要点在于以预防为主，做到“早发现、早干预、早治疗”，但是很多家长并没有意识到问题的严重性。
+                儿童听力障碍的要点在于以预防为主，做到“早发现、早干
+                </p>
+               <p>
+                预、早治疗”，但是很多家长并没有意识到问题的严重性。
               </p>
             </span>
           ),
@@ -120,6 +125,9 @@ export const Banner10DataSource = {
     ],
   },
 };
+
+
+
 //home没有
 export const Content00DataSource = {
   wrapper: { className: 'home-page-wrapper content0-wrapper' },
