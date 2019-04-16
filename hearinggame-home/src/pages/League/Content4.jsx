@@ -38,18 +38,6 @@ class Content4 extends React.PureComponent {
               : item.className
           }
         >
-          <TweenOne
-            animation={{
-              x: '-=10',
-              opacity: 0,
-              type: 'from',
-              ease: 'easeOutQuad',
-            }}
-            key="img"
-            {...childObj.icon}
-          >
-            <img src={childObj.icon.children} width="100%"  />
-          </TweenOne>
           <div {...childObj.textWrapper}>
             <TweenOne
               key="h2"

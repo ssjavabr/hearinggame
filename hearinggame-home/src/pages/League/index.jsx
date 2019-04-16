@@ -8,11 +8,15 @@ import Content3 from './Content3';
 import Content4 from './Content4';
 import Content5 from './Content5';
 import Content6 from './Content6';
+import Content7 from './Content7';
 
 import { Content30DataSource } from './data.source';
 import { Content31DataSource } from './data.source';
 import { Content32DataSource } from './data.source';
 import { Content33DataSource } from './data.source';
+import { Content41DataSource } from './data.source';
+
+
 import './less/antMotionStyle.less';
 let isMobile;
 enquireScreen((b) => {
@@ -56,24 +60,26 @@ export default class Home extends React.Component {
         dataSource={Content30DataSource}
         isMobile={this.state.isMobile}
       />,
-      <Content4
-        id="Content3_1"
-        key="Content3_1"
-        dataSource={Content31DataSource}
+      <Content7
+        id="Content7_0"
+        key="Content7_0"
+        dataSource={Content41DataSource}
         isMobile={this.state.isMobile}
       />,
+
       <Content5
         id="Content3_2"
         key="Content3_2"
         dataSource={Content32DataSource}
         isMobile={this.state.isMobile}
       />,
-      <Content6
-        id="Content3_3"
-        key="Content3_3"
+      <Content7
+        id="Content7_0"
+        key="Content7_0"
         dataSource={Content33DataSource}
         isMobile={this.state.isMobile}
       />,
+
     ];
     return (
       <div

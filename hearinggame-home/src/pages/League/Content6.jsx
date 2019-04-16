@@ -38,18 +38,6 @@ class Content6 extends React.PureComponent {
               : item.className
           }
         >
-          <TweenOne
-            animation={{
-              x: '-=10',
-              opacity: 0,
-              type: 'from',
-              ease: 'easeOutQuad',
-            }}
-            key="img"
-            {...childObj.icon}
-          >
-            <img src={childObj.icon.children} width="100%"  />
-          </TweenOne>
           <div {...childObj.textWrapper}>
             <TweenOne
               key="h2"
@@ -84,9 +72,9 @@ class Content6 extends React.PureComponent {
                   /\.(svg|gif|jpg|jpeg|png|JPG|PNG|GIF|JPEG)$/
                 )
                   ? React.createElement('img', {
-                      src: item.children,
-                      alt: 'img',
-                    })
+                    src: item.children,
+                    alt: 'img',
+                  })
                   : item.children
               )
             )}

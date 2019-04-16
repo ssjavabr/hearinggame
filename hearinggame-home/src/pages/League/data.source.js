@@ -42,7 +42,7 @@ export const Content30DataSource = {
             className: 'content3-title juhu10s1i9t-editor_css',
             children: (
               <span>
-                <p><div align="center">人耳的结构</div></p>
+                <h5><div align="center">人耳的结构</div></h5>
                 <p>&nbsp;</p>
               </span>
             ),
@@ -72,82 +72,7 @@ export const Content30DataSource = {
     ],
   },
 };
-export const Content31DataSource = {
-  wrapper: { className: 'home-page-wrapper content4-wrapper' },
-  page: { className: 'home-page content4' },
-  OverPack: { playScale: 0.3 },
-  titleWrapper: {
-    className: 'title-wrapper',
-    children: [
-      {
-        name: 'title',
-        children: (
-          <span>
-          </span>
-        ),
-        className: 'title-h1',
-      },
-      {
-        name: 'content',
-        className: 'title-content',
-        children: (
-          <span>
-          </span>
-        ),
-      },
-    ],
-  },
-  block: {
-    className: 'content4-block-wrapper',
-    children: [
-      {
-        name: 'block~juhu03b7kyb',
-        className: 'content4-block',
-        md: 24,
-        xs: 24,
-        children: {
-          icon: {
-            className: 'content4-icon',
-            children:
-              '',
-          },
-          textWrapper: { className: 'content4-text' },
-          title: {
-            className: 'content4-title juhu10s1i9t-editor_css',
-            children: (
-              <span>
-                <p>
-                  <div align="center">中耳炎对听力的影响</div>
-                </p>
-                <p>&nbsp;</p>
-              </span>
-            ),
-          },
-          content: {
-            className: 'content4-content',
-            children: (
-              <span>
-                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;中耳炎对儿童听力和语言发展的影响： </p>
-                <p>
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                  中耳是耳膜后面充满空气的空间，伴有振动的小骨（耳骨），放大并将声波传输到内耳听觉器官中。中耳炎作为一般术语是指中耳间隙的疾病。它包括急性中耳炎（AOM）和带有积液的中耳炎（OME）。
-                </p>
-                <p>
-                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                  急性中耳炎是一种细菌或病毒感染。它会导致衬里组织肿胀，感染粘液，填补中耳空间，阻塞声音。用抗生素治疗可以缩短细菌感染的症状，但许多病例在没有抗生素的情况下有所改善。抗生素在病毒感染（普通感冒）或其他不是由细菌感染引起的耳液中没有作用。
-                </p>
-                <p>
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                  积液的中耳炎是未被感染的液体，但也会阻塞声音。通常只有轻微的压力感或其他耳朵不适的症状。积液的中耳炎有几种发生。这是耳部感染的自然后效，即使疼痛，发热和炎症消退，听力仍然很差的原因。在大多数情况下，这种液体将逐渐被吸收或清除，并在数周内被空气取代。没有药物被证明有助于加快这一过程。如果3个月后液体不能清除并且听力仍然受阻，建议进行治疗。过敏也会导致OME发炎和增加液体产生。咽鼓管功能障碍本身可引起液体，并且是感染或过敏发作后持续液体的潜在原因。咽鼓管的正常功能是调节中耳空间的空气量。鼓膜两侧的相等压力使其能够自由振动并传递声音。咽鼓管通常会塌陷，只能通过上颚肌肉的作用才能打开。由于头部的形状和免疫系统的不成熟，咽鼓管在儿童中效果不佳。这就是为什么液体可以持续很长时间并且比成人需要更长时间才能清除。不幸的是，由此导致的听力损失特别影响语言和语言发展以及一般学习。
-                </p>
-              </span>
-            ),
-          },
-        },
-      },
-    ],
-  },
-};
+
 export const Content32DataSource = {
   wrapper: { className: 'home-page-wrapper content5-wrapper' },
   page: { className: 'home-page content5' },
@@ -191,7 +116,7 @@ export const Content32DataSource = {
             className: 'content5-title juhu10s1i9t-editor_css',
             children: (
               <span>
-                <p><div align="center">医学知识 鼓膜置管术</div> </p>
+                <div align="center"><h3>医学知识 鼓膜置管术</h3></div>
                 <p>&nbsp;</p>
               </span>
 
@@ -407,61 +332,24 @@ export const Content32DataSource = {
   },
 };
 export const Content33DataSource = {
-  wrapper: { className: 'home-page-wrapper content6-wrapper' },
-  page: { className: 'home-page content6' },
-  OverPack: { playScale: 0.3 },
+  wrapper: { className: 'home-page-wrapper content7-wrapper' },
+  page: { className: 'home-page content7' },
+  OverPack: { playScale: 0.3, className: '' },
   titleWrapper: {
     className: 'title-wrapper',
     children: [
-      {
-        name: 'title',
-        children: (
+      { name: 'title',
+        children:
           <span>
+            <h5>听力下降对儿童的影响</h5>
           </span>
-        ),
-        className: 'title-h1',
-      },
+        ,
+        className: 'title-h1' },
       {
         name: 'content',
         className: 'title-content',
         children: (
           <span>
-          </span>
-        ),
-      },
-    ],
-  },
-  block: {
-    className: 'content6-block-wrapper',
-    children: [
-
-      {
-        name: 'block~juhu640y7j',
-        className: 'content6-block juhu5yaiazu-editor_css',
-        md: 24,
-        xs: 24,
-        children: {
-          icon: {
-            className: 'content6-icon juhu59hyw4s-editor_css',
-            children:
-              '',
-          },
-          textWrapper: { className: 'content6-text' },
-          title: {
-            className: 'content6-title juhu10s1i9t-editor_css',
-            children: (
-              <span>
-                <p>
-                   <div align="center">听力下降对儿童的影响</div><br />
-                </p>
-                <p>&nbsp;</p>
-              </span>
-            ),
-          },
-          content: {
-            className: 'content6-content',
-            children: (
-              <span>
                 <p>
                   <b>听力损失直接影响儿童身心发展：</b>基础学语期是最关键的时期，如果由于听力障碍而未能建立正常的语言学习过程，可能会导致语言能力的终身障碍，甚至继发自闭症和聋哑。
                 </p>
@@ -475,12 +363,50 @@ export const Content33DataSource = {
                   <b>轻度儿童听力损失对学习成绩有直接影响：</b>据美国权威机构研究，轻度儿童听力损失，可以造成GPA1.0的下降,
                   相当于10-15分的下降！
                 </p>
-                <p> <b>听力影响的不仅仅是儿童的耳朵， 而是儿童的全部身心健康。</b></p>
+                <p> <b>听力影响的不仅仅是儿童的耳朵，而是儿童的全部身心健康。</b></p>
               </span>
-            ),
-          },
-        },
+        ),
       },
     ],
   },
 };
+export const Content41DataSource = {
+  wrapper: { className: 'home-page-wrapper content7-wrapper' },
+  page: { className: 'home-page content7' },
+  OverPack: { playScale: 0.3, className: '' },
+  titleWrapper: {
+    className: 'title-wrapper',
+    children: [
+      { name: 'title',
+        children:
+          <span>
+            <h5>中耳炎对听力的影响</h5>
+          </span>
+        ,
+        className: 'title-h1' },
+      {
+        name: 'content',
+        className: 'title-content',
+        children: (
+          <span>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;中耳炎对儿童听力和语言发展的影响： </p>
+                <p>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  中耳是耳膜后面充满空气的空间，伴有振动的小骨（耳骨），放大并将声波传输到内耳听觉器官中。中耳炎作为一般术语是指中耳间隙的疾病。它包括急性中耳炎（AOM）和带有积液的中耳炎（OME）。
+                </p>
+                <p>
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  急性中耳炎是一种细菌或病毒感染。它会导致衬里组织肿胀，感染粘液，填补中耳空间，阻塞声音。用抗生素治疗可以缩短细菌感染的症状，但许多病例在没有抗生素的情况下有所改善。抗生素在病毒感染（普通感冒）或其他不是由细菌感染引起的耳液中没有作用。
+                </p>
+                <p>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  积液的中耳炎是未被感染的液体，但也会阻塞声音。通常只有轻微的压力感或其他耳朵不适的症状。积液的中耳炎有几种发生。这是耳部感染的自然后效，即使疼痛，发热和炎症消退，听力仍然很差的原因。在大多数情况下，这种液体将逐渐被吸收或清除，并在数周内被空气取代。没有药物被证明有助于加快这一过程。如果3个月后液体不能清除并且听力仍然受阻，建议进行治疗。过敏也会导致OME发炎和增加液体产生。咽鼓管功能障碍本身可引起液体，并且是感染或过敏发作后持续液体的潜在原因。咽鼓管的正常功能是调节中耳空间的空气量。鼓膜两侧的相等压力使其能够自由振动并传递声音。咽鼓管通常会塌陷，只能通过上颚肌肉的作用才能打开。由于头部的形状和免疫系统的不成熟，咽鼓管在儿童中效果不佳。这就是为什么液体可以持续很长时间并且比成人需要更长时间才能清除。不幸的是，由此导致的听力损失特别影响语言和语言发展以及一般学习。
+                </p>
+              </span>
+        ),
+      },
+    ],
+  },
+};
+
+
