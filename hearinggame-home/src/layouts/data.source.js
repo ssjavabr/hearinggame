@@ -47,7 +47,7 @@ export const Footer10DataSource = {
       {
         name: 'block1',
         xs: 24,
-        md: 6,
+        md: 5,
         className: 'block',
         title: {
           children: (
@@ -67,7 +67,7 @@ export const Footer10DataSource = {
       {
         name: 'block2',
         xs: 24,
-        md: 6,
+        md: 5,
         className: 'block',
         title: {
           children: (
@@ -95,7 +95,7 @@ export const Footer10DataSource = {
       {
         name: 'block3',
         xs: 24,
-        md: 6,
+        md: 7,
         className: 'block',
         title: {
           children: (
@@ -105,6 +105,7 @@ export const Footer10DataSource = {
                 <br/>
               </p>
               <p>邮件咨询</p>
+              <p>support@hearinggame.cn</p>
             </span>
           ),
           className: 'undefined jpapp4bdgyd-editor_css',
