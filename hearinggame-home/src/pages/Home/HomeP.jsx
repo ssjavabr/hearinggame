@@ -5,7 +5,7 @@ import BannerAnim, { Element } from 'rc-banner-anim';
 import 'rc-banner-anim/assets/index.css';
 
 const { BgElement } = Element;
-class Banner extends React.PureComponent {
+class HomeP extends React.PureComponent {
   render() {
     const { ...props } = this.props;
     const { dataSource } = props;
@@ -63,4 +63,4 @@ class Banner extends React.PureComponent {
   }
 }
 
-export default Banner;
+export default HomeP;

@@ -3,7 +3,7 @@ import { Row, Col } from 'antd';
 import { TweenOneGroup } from 'rc-tween-one';
 import OverPack from 'rc-scroll-anim/lib/ScrollOverPack';
 
-class Content4 extends React.PureComponent {
+class Advantages extends React.PureComponent {
   getChildrenToRender = (data) =>
     data.map((item,index) => {
       return (
@@ -78,4 +78,4 @@ class Content4 extends React.PureComponent {
   }
 }
 
-export default Content4;
+export default Advantages;

@@ -4,7 +4,7 @@ import TweenOne from 'rc-tween-one';
 import { Row, Col } from 'antd';
 import OverPack from 'rc-scroll-anim/lib/ScrollOverPack';
 
-class Content3 extends React.PureComponent {
+class IndustryStatus extends React.PureComponent {
   getDelay = (e, b) => (e % b) * 100 + Math.floor(e / b) * 100 + b * 100;
 
   render() {
@@ -104,4 +104,4 @@ class Content3 extends React.PureComponent {
   }
 }
 
-export default Content3;
+export default IndustryStatus;

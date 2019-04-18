@@ -3,36 +3,30 @@
 import React from 'react';
 import {enquireScreen} from 'enquire-js';
 
-import Nav1 from './Nav1';
-import Banner1 from './Banner1';
-import Content2 from './Content2';
-import Content3 from './Content3';
-import Content4 from './Content4';
-import Content5 from './Content5';
-import Content6 from './Content6';
-import Content7 from './Content7';
-import Content8 from './Content8';
-import Content10 from './Content10';
-import Footer1 from './Footer1';
+
+import HomeP from './HomeP';
+import IndustryStatus from './IndustryStatus';
+import Advantages from './Advantages';
+import CoreTeam from './CoreTeam';
+import AboutUs from './AboutUs';
+import ProductsAndServices from './ProductsAndServices';
+import ScreeningScheme from './ScreeningScheme';
+import Partner from './Partner';
 
 
 
 
 
 import {
-  Nav11DataSource,
-  Banner10DataSource,
-  Content33DataSource,
-  Content10DataSource,
-  Content31DataSource,
-  Content21DataSource,
-  Content30DataSource,
-  Content50DataSource,
-  Content80DataSource,
-  Content60DataSource,
-  Content51DataSource,
-  Content61DataSource,
-  Footer10DataSource,
+
+  HomePDataSource,
+  ProductsAndServicesDataSource,
+  IndustryStatusDataSource,
+  ScreeningSchemeDataSource,
+  AdvantagesDataSource,
+  AboutUsDataSource,
+  CoreTeamDataSource,
+  PartnerDataSource,
 
 } from './data.source';
 import './less/antMotionStyle.less';
@@ -74,90 +68,57 @@ export default class Home extends React.Component {
   render() {
 
     const children = [
-      /* 导航
-      <Nav1
-         id="Nav1_1"
-         key="Nav1_1"
-         dataSource={Nav11DataSource}
-         isMobile={this.state.isMobile}
-       />,*/
-      <Banner1
-        id="Banner1_0"
-        key="Banner1_0"
-        dataSource={Banner10DataSource}
+      <HomeP
+        id="HomeP_0"
+        key="HomeP_0"
+        dataSource={HomePDataSource}
         isMobile={this.state.isMobile}
       />,
-      <Content7
-        id="Content7_0"
-        key="Content7_0"
-        dataSource={Content50DataSource}
+      <ProductsAndServices
+        id="ProductsAndServices_0"
+        key="ProductsAndServices_0"
+        dataSource={ProductsAndServicesDataSource}
         isMobile={this.state.isMobile}
       />,
-      <Content3
-        id="Content3_1"
-        key="Content3_1"
-        dataSource={Content31DataSource}
+      <IndustryStatus
+        id="IndustryStatus_1"
+        key="IndustryStatus_1"
+        dataSource={IndustryStatusDataSource}
         isMobile={this.state.isMobile}
       />,
 
-  /*//方案文字+拼接
-  <Content2
-        id="Content2_1"
-        key="Content2_1"
-        dataSource={Content21DataSource}
-        isMobile={this.state.isMobile}
-      />,*/
-      <Content10
-        id="Content3_1"
-        key="Content3_1"
-        dataSource={Content10DataSource}
+
+      <ScreeningScheme
+        id="ScreeningScheme_1"
+        key="ScreeningScheme_1"
+        dataSource={ScreeningSchemeDataSource}
         isMobile={this.state.isMobile}
       />,
-      <Content4
-        id="Content4_0"
-        key="Content4_0"
-        dataSource={Content30DataSource}
+      <Advantages
+        id="Advantages_0"
+        key="Advantages_0"
+        dataSource={AdvantagesDataSource}
         isMobile={this.state.isMobile}
       />,
 
-      /*客户案例
-      <Content5
-        id="Content5_0"
-        key="Content5_0"
-        dataSource={Content50DataSource}
-        isMobile={this.state.isMobile}
-      />,*/
-      /*特邀嘉宾
-      <Content8
-         id="Content8_0"
-         key="Content8_0"
-         dataSource={Content80DataSource}
-         isMobile={this.state.isMobile}
-       />,*/
-      <Content6
-        id="Content6_0"
-        key="Content6_0"
-        dataSource={Content60DataSource}
+      <AboutUs
+        id="AboutUs_0"
+        key="AboutUs_0"
+        dataSource={AboutUsDataSource}
         isMobile={this.state.isMobile}
       />,
-      <Content5
-        id="Content5_1"
-        key="Content5_1"
-        dataSource={Content51DataSource}
+      <CoreTeam
+        id="CoreTeam_1"
+        key="CoreTeam_1"
+        dataSource={CoreTeamDataSource}
         isMobile={this.state.isMobile}
       />,
-      <Content6
-        id="Content6_1"
-        key="Content6_1"
-        dataSource={Content61DataSource}
+      <Partner
+        id="Partner_1"
+        key="Partner_1"
+        dataSource={PartnerDataSource}
         isMobile={this.state.isMobile}
       />,
-    /* <Footer1
-        id="Footer1_0"
-        key="Footer1_0"
-        dataSource={Footer10DataSource}
-        isMobile={this.state.isMobile}
-      />,*/
 
     ];
     return (

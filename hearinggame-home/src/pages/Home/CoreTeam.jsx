@@ -3,7 +3,7 @@ import { Row, Col } from 'antd';
 import { TweenOneGroup } from 'rc-tween-one';
 import OverPack from 'rc-scroll-anim/lib/ScrollOverPack';
 
-class Content5 extends React.PureComponent {
+class CoreTeam extends React.PureComponent {
   getChildrenToRender = (data) =>
     data.map((item) => {
       return (
@@ -71,4 +71,4 @@ class Content5 extends React.PureComponent {
   }
 }
 
-export default Content5;
+export default CoreTeam;
