@@ -2,11 +2,13 @@
 /* eslint arrow-parens: 0 */
 import React from 'react';
 import { enquireScreen } from 'enquire-js';
-import Content5 from './Content5';
-import Content6 from './Content6';
-import { Content51DataSource } from './data.source';
+import CoreTeam from './CoreTeam';
+import AboutUs from './AboutUs';
 import './less/antMotionStyle.less';
-import {Content60DataSource} from "./data.source";
+import {
+  AboutUsDataSource,
+  CoreTeamDataSource,
+} from '../data/data.source';
 
 
 let isMobile;
@@ -45,17 +47,17 @@ export default class Home extends React.Component {
 
   render() {
     const children = [
-      <Content6
-        id="Content6_0"
-        key="Content6_0"
-        dataSource={Content60DataSource}
+      <AboutUs
+        id="AboutUs_0"
+        key="AboutUs_0"
+        dataSource={AboutUsDataSource}
         isMobile={this.state.isMobile}
       />,
 
-      <Content5
-        id="Content5_1"
-        key="Content5_1"
-        dataSource={Content51DataSource}
+      <CoreTeam
+        id="CoreTeam_1"
+        key="CoreTeam_1"
+        dataSource={CoreTeamDataSource}
         isMobile={this.state.isMobile}
       />,
     ];

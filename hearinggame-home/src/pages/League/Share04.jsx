@@ -3,7 +3,7 @@ import { Row, Col } from 'antd';
 import { TweenOneGroup } from 'rc-tween-one';
 import OverPack from 'rc-scroll-anim/lib/ScrollOverPack';
 
-class Content7 extends React.PureComponent {
+class Share04 extends React.PureComponent {
   render() {
     const { ...props } = this.props;
     const { dataSource } = props;
@@ -35,4 +35,4 @@ class Content7 extends React.PureComponent {
   }
 }
 
-export default Content7;
+export default Share04;

@@ -4,7 +4,7 @@ import TweenOne from 'rc-tween-one';
 import { Row, Col } from 'antd';
 import OverPack from 'rc-scroll-anim/lib/ScrollOverPack';
 
-class Content3 extends React.PureComponent {
+class Share01 extends React.PureComponent {
   getDelay = (e, b) => (e % b) * 100 + Math.floor(e / b) * 100 + b * 100;
 
   render() {
@@ -48,7 +48,7 @@ class Content3 extends React.PureComponent {
             key="img"
             {...childObj.icon}
           >
-            <img src={childObj.icon.children} height="254px" width="322px" alt="img" />
+            <img src={childObj.icon.children} width="100%"  />
           </TweenOne>
           <div {...childObj.textWrapper}>
             <TweenOne
@@ -104,4 +104,4 @@ class Content3 extends React.PureComponent {
   }
 }
 
-export default Content3;
+export default Share01;

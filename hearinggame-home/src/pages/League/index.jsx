@@ -4,19 +4,17 @@
 import React from 'react';
 import { enquireScreen } from 'enquire-js';
 
-import Content3 from './Content3';
-import Content4 from './Content4';
-import Content5 from './Content5';
-import Content6 from './Content6';
-import Content7 from './Content7';
+import Share01 from './Share01';
+import Share02 from './Share02';
+import Share03 from './Share03';
+import Share04 from './Share04';
 
-import { Content30DataSource } from './data.source';
-import { Content31DataSource } from './data.source';
-import { Content32DataSource } from './data.source';
-import { Content33DataSource } from './data.source';
-import { Content41DataSource } from './data.source';
-
-
+import {
+  Share01DataSource,
+  Share02DataSource,
+  Share03DataSource,
+  Share04DataSource,
+} from '../data/data.source';
 import './less/antMotionStyle.less';
 let isMobile;
 enquireScreen((b) => {
@@ -54,29 +52,29 @@ export default class Home extends React.Component {
 
   render() {
     const children = [
-      <Content3
-        id="Content3_0"
-        key="Content3_0"
-        dataSource={Content30DataSource}
+      <Share01
+        id="Share01_0"
+        key="Share01_0"
+        dataSource={Share01DataSource}
         isMobile={this.state.isMobile}
       />,
-      <Content7
-        id="Content7_0"
-        key="Content7_0"
-        dataSource={Content41DataSource}
+      <Share02
+        id="Share02_0"
+        key="Share02_0"
+        dataSource={Share02DataSource}
         isMobile={this.state.isMobile}
       />,
 
-      <Content5
-        id="Content3_2"
-        key="Content3_2"
-        dataSource={Content32DataSource}
+      <Share03
+        id="Share03_2"
+        key="Share03_2"
+        dataSource={Share03DataSource}
         isMobile={this.state.isMobile}
       />,
-      <Content7
-        id="Content7_0"
-        key="Content7_0"
-        dataSource={Content33DataSource}
+      <Share04
+        id="Share04_0"
+        key="Share04_0"
+        dataSource={Share04DataSource}
         isMobile={this.state.isMobile}
       />,
 

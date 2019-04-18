@@ -8,17 +8,16 @@ import { connect } from 'dva';
 import { ContainerQuery } from 'react-container-query';
 import classNames from 'classnames';
 import Media from 'react-media';
-import Footer from './Footer';
 import Context from './MenuContext';
 import Exception403 from '../pages/Exception/403';
-
 import Nav1 from './Nav1';
 import Footer1 from './Footer1';
-
-
 import './less/antMotionStyle.less';
-
-import * as dataSource from './data.source';
+import {
+  NavDataSource,
+  FooterDataSource,
+} from '../pages/data/data.source';
+// import * as dataSource from './data.source';
 
 let isMobile;
 enquireScreen((b) => {
@@ -93,14 +92,14 @@ export default class BlankLayout extends React.PureComponent {
         <Nav1
           id="Nav1_0"
           key="Nav1_0"
-          dataSource={dataSource.Nav10DataSource}
+          dataSource={NavDataSource}
           isMobile={isMobile}
         />
         {children}
         <Footer1
           id="Footer1_0"
           key="Footer1_0"
-          dataSource={dataSource.Footer10DataSource}
+          dataSource={FooterDataSource}
           isMobile={isMobile}
         />
       </Layout>

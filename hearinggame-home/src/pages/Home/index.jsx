@@ -28,7 +28,7 @@ import {
   CoreTeamDataSource,
   PartnerDataSource,
 
-} from './data.source';
+} from '../data/data.source';
 import './less/antMotionStyle.less';
 
 let isMobile;

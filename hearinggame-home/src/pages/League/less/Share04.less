@@ -1,0 +1,39 @@
+@content7: content7;
+.@{content7}-wrapper {
+  background-color: #F5F5F5;
+  min-height: 720px;
+
+  .@{content7} {
+    & .title-content {
+      text-align: left;
+    }
+
+    >p {
+      text-align: center;
+    }
+
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .@{content7}-wrapper {
+    height: 2000px;
+    overflow: hidden;
+    .@{content7} {
+      ul {
+        li {
+          display: block;
+          width: 100%;
+          padding: 2%;
+          span {
+            height: 168px;
+          }
+          p {
+            position: relative;
+            bottom: 0;
+          }
+        }
+      }
+    }
+  }
+}

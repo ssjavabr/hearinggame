@@ -3,12 +3,10 @@
 import React from 'react';
 import { enquireScreen } from 'enquire-js';
 
-import Content1 from './Content1';
-import Content3 from './Content3';
+import Industry from './Industry';
 
-import { Content11DataSource } from './data.source';
+import { IndustryStatusDataSource } from '../data/data.source';
 import './less/antMotionStyle.less';
-import {Content31DataSource} from "./data.source";
 
 let isMobile;
 enquireScreen((b) => {
@@ -46,10 +44,10 @@ export default class Home extends React.Component {
 
   render() {
     const children = [
-      <Content3
-        id="Content3_1"
-        key="Content3_1"
-        dataSource={Content31DataSource}
+      <Industry
+        id="Industry_1"
+        key="Industry_1"
+        dataSource={IndustryStatusDataSource}
         isMobile={this.state.isMobile}
       />,
 

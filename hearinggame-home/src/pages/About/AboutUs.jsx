@@ -4,7 +4,7 @@ import { Row, Col } from 'antd';
 import QueueAnim from 'rc-queue-anim';
 import OverPack from 'rc-scroll-anim/lib/ScrollOverPack';
 
-class Content6 extends React.Component {
+class AboutUs extends React.Component {
   getBlockChildren = (data) =>
     data.map(($item) => {
       const { ...item } = $item;
@@ -95,4 +95,4 @@ class Content6 extends React.Component {
   }
 }
 
-export default Content6;
+export default AboutUs;
